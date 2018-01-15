@@ -1,0 +1,68 @@
+<div data-page="home" class="page toolbar-fixed">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="open-panel link icon-only" data-panel="left"><i class="icon icon-bars"></i></a>
+            </div>
+            <div class="center">
+                <span data-i18n="app.name">STC</span>&nbsp;<!--<span data-i18n="app.version" style="font-size:12px;"></span>-->
+            </div>
+            <div class="right">
+                <a href="#" data-popover=".popover-links" class="link open-popover"><i class="fa fa-language" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="toolbar tabbar theme-gray">
+        <div class="toolbar-inner">
+            <a href="#tab1" class="active tab-link"><span data-i18n="home.outreach">OUTREACH</span></a>
+            <a href="#tab2" class="tab-link trigger-show-dashboard"><span data-i18n="home.dashboard">DASHBOARD</span></a>
+        </div>
+    </div>
+    <div class="tabs-animated-wrap1 tabs-swipeable-wrap">
+        <div class="tabs">
+            <div id="tab1" class="page-content tab active">
+                <div class="content-block">
+                    <div class="ks-grid">
+                        <div class="row no-gutter">
+                            <div class="ks-demo-icon col-50 tablet-15" style="padding-left:0px;">
+                                <a href="#" class="open-my-client">
+                                    <div class="icon color-lightgreen">
+<!--                                        <i class="fa fa-users fa-4x" aria-hidden="true"></i>-->
+                                        <img src="images/user-profile.png" width="80" />
+                                    </div>
+                                    <div class="icon-name"><span data-i18n="menu.clientProfile" style="width:100%;">CLIENT PROFILE</span></div>
+                                </a>
+                            </div>
+                            <div class="ks-demo-icon col-50 tablet-15">
+                                <a href="fragments/search.html">
+                                    <div class="icon color-orange">
+<!--                                        <i class="fa fa-search fa-4x" aria-hidden="true"></i>-->
+                                        <img src="images/search-home.png" width="80" />
+                                    </div>
+                                    <div class="icon-name"><span data-i18n="menu.search">SEARCH</span></div>
+                                </a>
+                            </div>
+                            
+
+                            <div class="ks-demo-icon col-50 tablet-15" style="padding-left:0px;">
+                                <a href="fragments/alerts.html">
+                                    <div class="icon color-purple">
+<!--                                        <i class="fa fa-bell fa-4x" aria-hidden="true"></i>-->
+                                        <img src="images/alert-home.png" width="80" />
+                                    </div>
+                                    <div class="icon-name"><span data-i18n="home.alerts">ALERTS</span></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tab2" class="page-content tab">
+                <div class="content-block" style="margin-top:0px;">
+                    <div id="dashboardIndicator"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

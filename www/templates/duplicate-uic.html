@@ -1,0 +1,70 @@
+<div data-page="section" class="page navbar-fixed">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <!--<a href="#" class="open-panel link icon-only" data-panel="left"><i class="icon icon-bars"></i></a>-->
+                <a href="#" class="trigger-close-dup link icon-only"><i class="icon icon-back"></i></a>
+            </div>
+            <div class="center"><span data-i18n="{{title}}"></span></div>
+            <div class="right"></div>
+        </div>    
+    </div>
+    
+    <div class="page-content">
+        <div class="content-block" style="margin-top:0px;">
+            <p><span data-i18n="register.duplicateFound">Duplicate Found</span></p>
+            <div class="duplicate-list">
+                {{#each this}}
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-content-inner">
+                                <div class="row">
+                                    <div class="col-50"><span data-i18n="register.nickName">Nick name</span></div>
+                                    <div class="col-50">{{nickName}}</div>
+                                    {{#if dob}}
+                                        <div class="col-50"><span data-i18n="register.yearOfBirth">Year of birth</span></div>
+                                        <div class="col-50">{{dob}}</div>
+                                    {{/if}}
+                                    
+                                    <div class="col-50"><span data-i18n="register.gender">Gender</span></div>
+                                    {{#if gender}}
+                                        {{#js_compare "this.gender === '01'"}}
+
+                                            <div class="col-50">
+                                                <span class="item-media-img  bg-lightgreen"><i class="fa fa-male" for="gender-male"></i></span>
+                                            </div>
+                                        {{/js_compare}}
+                                        {{#js_compare "this.gender === '02'"}}
+                                            <div class="col-50">
+                                                <span class="item-media-img  bg-pink"><i class="fa fa-female" for="gender-female"></i></span>
+                                            </div>
+                                        {{/js_compare}}
+
+                                        {{#js_compare "this.gender === '03'"}}
+                                            <div class="col-50">
+                                                <span class="item-media-img  bg-red" ><img style="width:40px" src="images/transgender.svg"/></span>
+                                            </div>
+                                        {{/js_compare}}
+
+                                    {{else}}
+                                        <div class="col-50">
+                                            <span class="item-media-img  bg-gray" ><i class="fa fa-user" aria-hidden="true"></i></span>
+                                        </div>
+                                    {{/if}}
+                                </div>
+                                <div class="row">
+                                    <div class="col-40"></div>
+                                    <div class="col-40"></div>
+                                    <div class="col-20">
+                                        <a href="#" data-pouchid={{id}} class="floating-button trigger-show-duplicates" style="color:#fff;"><i class="fa fa-users" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
+

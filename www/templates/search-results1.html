@@ -1,0 +1,41 @@
+<div class="list-block media-list img-round accordion-list1">
+    <ul>
+        {{#each instanceBOs}}
+            <li class="accordion-item1">
+                <a href="#" class="item-link item-content trigger-show-details" data-sysuic={{sysuic}} data-uic="{{uic}}">
+                    <div class="item-media">
+                        {{#if gender}}
+                            {{#js_compare "this.gender === 'Male'"}}
+                        
+                                <span class="item-media-img  bg-lightgreen"><i class="fa fa-male" for="gender-male"></i></span>
+                            {{/js_compare}}
+                            {{#js_compare "this.gender === 'Female'"}}
+                                <span class="item-media-img  bg-pink"><i class="fa fa-female" for="gender-female"></i></span>
+                            {{/js_compare}}
+
+                            {{#js_compare "this.gender === 'TG'"}}
+                                <span class="item-media-img  bg-red" ><img style="width:25px;padding-left:8px;" src="images/transgender.svg"/></span>
+                            {{/js_compare}}
+
+                            
+                        {{else}}
+                            <span  class="item-media-img  bg-gray" ><i class="fa fa-user" aria-hidden="true"></i></span>
+                        {{/if}}
+                    </div>
+                    
+                    <div class="item-inner" style="padding-left: 10px;">
+                        <div class="item-title-row">
+                            <div class="item-title">{{nickname}}</div>
+                            <div class="item-after"></div>
+                        </div>
+                        <div class="item-subtitle">{{#if hotspotname}} {{hotspotname}},{{/if}} {{yearofbirth}}</div>
+                        
+                        <div class="item-text">
+                            
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {{/each}}   
+    </ul>
+</div>

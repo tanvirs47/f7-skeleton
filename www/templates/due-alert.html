@@ -1,0 +1,87 @@
+{{#each data}}
+<div class="card">
+    
+    <div class="card-content">
+        <div class="card-content-inner">
+            
+            {{#if referfor}}
+                <div class="row">
+                    <div class="col-100 center badge bg-indigo" style="font-size:14px;">
+                        <span>{{referfor}}</span>&nbsp;<span data-i18n="alert.servicePending">Service Pending</span>
+                    </div>
+                </div>
+            {{else}}
+                <div class="row">
+                    <div class="col-100 center badge bg-indigo" style="font-size:14px;">
+                        <span data-i18n="alert.enrollmentInCare">Enrollment in Care</span>
+                    </div>
+                </div>
+                
+            {{/if}}
+            <div class="row">
+                {{#if nickname}}
+                    <div class="col-50">
+                        <span data-i18n="alert.nickname">Nick name</span>
+                    </div>
+                    <div class="col-50">{{nickname}}</div>
+                {{/if}}
+                 
+                {{#if testdate}}
+                    <div class="col-50">
+                        <span data-i18n="alert.testdate">Test date</span>
+                    </div>
+                    <div class="col-50">{{testdate}}</div>
+                {{/if}}
+                
+                {{#if testresult}}
+                    <div class="col-50">
+                        <span data-i18n="alert.testresult">Test result</span>
+                    </div>
+                    <div class="col-50">{{testresult}}</div>
+                {{/if}}
+                
+                {{#if user}}
+                    <div class="col-50">
+                        <span data-i18n="alert.referby">Referred by</span>
+                    </div>
+                    <div class="col-50">{{user}}</div>
+                {{/if}}
+                
+                {{#if referdate}}
+                    <div class="col-50">
+                        <span data-i18n="alert.referon">Referred on </span>
+                    </div>
+                    <div class="col-50">{{referdate}}</div>
+                {{/if}}
+                
+                {{#if referbyname}}
+                    <div class="col-50">
+                        <span data-i18n="alert.referby">Referred by</span>
+                    </div>
+                    <div class="col-50">{{referbyname}}</div>
+                {{/if}}
+                
+                {{#if referbyname}}
+                    <div class="col-50">
+                        <span data-i18n="alert.referto">Referred to</span>
+                    </div>
+                    <div class="col-50">{{refertofacilty}}</div>
+                {{/if}}
+                
+                {{#if duedays}}
+                    <div class="col-50">
+                        <span data-i18n="alert.dueDays">Due days</span>
+                    </div>
+                    <div class="col-50">{{duedays}}</div>
+                {{/if}}
+            </div>
+            <div class="buttons-row margin-top-10">
+                <button type="button" class="button button-raised button-fill trigger-goto-services"  data-sysuic="{{sysuic}}" data-uic="{{uic}}" data-i18n="profile.services">Services</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{{else}}
+    <p data-i18n="alerts.empty">Alerts not found!</p>
+{{/each}}

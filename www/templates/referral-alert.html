@@ -1,0 +1,55 @@
+{{#each data}}
+<div class="card">
+    
+    <div class="card-content">
+        <div class="card-content-inner">
+            
+                <div class="row">
+                    <div class="col-100 center badge bg-indigo" style="font-size:14px;">
+                        <span data-i18n="alert.retesting">Re-Testing</span>
+                    </div>
+                </div>
+            
+            <div class="row">
+                <div class="col-40">
+                    <span data-i18n="alert.nickname">Nick name</span>
+                </div>
+                <div class="col-60">{{nickname}}</div>
+                {{#if referreddate}}
+                    <div class="col-40">
+                        <span data-i18n="alert.referon">Referred on </span>
+                    </div>
+                    <div class="col-60">{{referreddate}}</div>
+                {{/if}}
+                {{#if testdate}}
+                    <div class="col-40">
+                        <span data-i18n="alert.testdate">Test date</span>
+                    </div>
+                    <div class="col-60">{{testdate}}</div>
+                {{/if}}
+                <div class="col-40">
+                    <span data-i18n="alert.testresult">Test result</span>
+                </div>
+                <div class="col-60">{{testresult}}</div>
+
+                <div class="col-40">
+                    <span data-i18n="alert.referby">Referred by</span>
+                </div>
+                <div class="col-60">{{user}}</div>
+                {{#if duedays}}
+                    <div class="col-40">
+                        <span data-i18n="alert.dueDays">Due days</span>
+                    </div>
+                    <div class="col-60">{{duedays}}</div>
+                {{/if}}
+            </div>
+            <div class="buttons-row margin-top-10">
+                <button type="button" class="button button-raised button-fill trigger-goto-services" data-sysuic="{{sysuic}}" data-uic="{{uic}}" data-i18n="profile.followup">Follow-up</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{{else}}
+    <p data-i18n="alerts.empty">Alerts not found!</p>
+{{/each}}

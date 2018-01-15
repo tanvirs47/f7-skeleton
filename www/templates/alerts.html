@@ -1,0 +1,116 @@
+<div class="list-block media-list img-round accordion-list">
+    <ul>
+    {{#each data}}
+    <li class="accordion-item">
+        <a href="#" class="item-link item-content">
+            <div class="item-media">
+                {{#if targetGroup}}
+                    {{#js_compare "this.targetGroup === 'PWID'"}}
+                        <span class="item-media-img  bg-blue">{{targetGroup}}</span>
+                    {{/js_compare}}
+                    {{#js_compare "this.targetGroup === 'SW'"}}
+                        <span class="item-media-img  bg-green">{{targetGroup}}</span>
+                    {{/js_compare}}
+
+                    {{#js_compare "this.targetGroup === 'MSM TG'"}}
+                        <span class="item-media-img  bg-red" >{{targetGroup}}</span>
+                    {{/js_compare}}
+
+                    {{#js_compare "this.targetGroup === 'MSW'"}}
+                        <span  class="item-media-img  bg-orange" >{{targetGroup}}</span>
+                    {{/js_compare}}
+                {{else}}
+                    <span  class="item-media-img  bg-gray" ><i class="fa fa-user" aria-hidden="true"></i></span>
+                {{/if}}
+            </div>
+            <div class="item-inner">
+                <div class="item-title-row">
+                    {{#if targetGroup}}
+                        {{#js_compare "this.targetGroup === 'PWID'"}}
+                            <div class="item-title">{{uicpwid}}</div> 
+                        {{/js_compare}}
+                        {{#js_compare "this.targetGroup === 'SW' || this.targetGroup === 'MSM TG' || this.targetGroup === 'MSW' "}}
+                            <div class="item-title">{{uic}}</div>
+                        {{/js_compare}}
+                    {{else}}
+                        <div class="item-title">{{uic}}</div>
+                    {{/if}}
+                    <div class="item-after"></div>
+                </div>
+                <div class="item-subtitle">{{gender}}, {{DateToAge dob}}</div>
+
+                <div class="item-text">
+
+                </div>
+            </div>
+        </a>
+        <div class="accordion-item-content">
+            <div class="content-block">
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.regdate">Registration Date</span> :</div>
+                    <div class="col-45">{{convertToThaiDate registrationDate}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.firstname">First Name</span> :</div>
+                    <div class="col-45">{{firstName}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.lastname">Last Name </span> :</div>
+                    <div class="col-45">{{lastName}}</div>
+                </div>
+                {{#if nickname}}
+                <div class="row nickname">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.nickname">Nickname</span> :</div>
+                    <div class="col-45">{{nickname}}</div>
+                </div>
+                {{/if}}
+                {{#js_compare "this.targetGroup === 'SW' || this.targetGroup === 'MSM TG' || this.targetGroup === 'MSW' "}}
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.uic">UIC</span> :</div>
+                    <div class="col-45">{{uic}}</div>
+                </div>
+                {{/js_compare}}
+                {{#js_compare "this.targetGroup === 'PWID'"}}
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.uic">UIC</span>  :</div>
+                    <div class="col-45">{{uicpwid}}</div>
+                </div>
+                {{/js_compare}}
+
+                <!--<div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.dob">Birth Date</span> :</div>
+                    <div class="col-45">{{convertToThaiDate dob}}</div>
+                </div>-->
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.gender">Gender</span> :</div>
+                    <div class="col-45">{{gender}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.access">Access</span> :</div>
+                    <div class="col-45">{{access}}</div>
+                </div>
+                <!--<div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.occupation">Occupation</span> :</div>
+                    <div class="col-45">{{occupation}}</div>
+                </div>-->
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-45 font-bold"><span data-i18n="myclients.nationality">Nationality</span>  :</div>
+                    <div class="col-45">{{nationality}}</div>
+                </div>
+            </div>
+        </div>
+    </li>
+{{/each}}  
+</ul>
+</div>

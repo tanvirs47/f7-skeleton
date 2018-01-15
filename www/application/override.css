@@ -1,0 +1,302 @@
+.list-block .item-title, .list-block .item-subtitle {
+    white-space: normal;
+}
+
+
+.list-block ul:before, .layout-dark .list-block ul:before, .list-block.layout-dark ul:before, .layout-dark .item-inner:not(.focus-state):not(.not-empty-state) .item-input-field:after, .layout-dark .item-inner:not(.focus-state):not(.not-empty-state) .input-field:after {
+    background-color: transparent;
+}
+
+
+.list-block ul:before, .layout-dark .list-block ul:before, .list-block.layout-dark ul:before, .layout-dark .item-inner:not(.focus-state):not(.not-empty-state) .item-input-field:after, .layout-dark .item-inner:not(.focus-state):not(.not-empty-state) .input-field:after {
+    background-color: transparent;
+}
+
+.list-block, .list-block ul, .list-block li, .list-block .item-inner:after, .list-block ul:after, .layout-dark .list-block ul:after, .list-block.layout-dark ul:after {
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+    background-color: transparent;
+}
+
+.notifications {
+    background-color: black !important;
+}
+
+.tabs-animated-wrap > .tabs > .tab {
+    overflow: auto;
+}
+
+/*DELEGATED PANELS*/
+
+@media (min-width: 569px) {
+  .delegatedpanels .panel.panel-left.panel-cover {
+    width: 220px;
+    left: -220px;
+  }
+
+  .delegatedpanels.with-panel-left-cover .panel-left {
+    -webkit-transform: translate3d(220px,0,0);
+    -ms-transform: translate3d(220px,0,0);
+    transform: translate3d(220px,0,0);
+  }
+}
+
+/* Floating button */
+.popover.popover-floating-button.modal-in {
+  border-radius: 0%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 30ms;
+  transition-duration: 30ms;
+}
+
+/* Messages div */
+
+.message-received.message-with-avatar .message-text,
+.message-received.message-with-avatar .message-name,
+.message-received.message-with-avatar .message-label {
+  margin-left: 10px;
+}
+
+@media (min-width: 769px) {
+  .delegatedpanels .panel.panel-left.panel-cover {
+    left: 0;
+    width: 220px;
+    display: block;
+  }
+
+  .delegatedpanels.with-panel-left-cover .panel-left {
+    -webkit-transform: translate3d(0px,0,0);
+    -ms-transform: translate3d(0px,0,0);
+    transform: translate3d(0px,0,0);
+  }
+
+  .delegatedpanels .view-main {
+    float: right;
+    width: -webkit-calc(100% - 220px);
+    width: -moz-calc(100% - 220px);
+    width: -ms-calc(100% - 220px);
+    width: calc(100% - 220px);
+  }
+
+  .delegatedpanels .view-main .navbar [data-panel="left"] {
+    display: none;
+  }
+}
+
+
+
+.theme-red .searchbar, .theme-red .statusbar-overlay {
+    background: #d32f2f;
+}
+
+.theme-pink .searchbar, .theme-pink .statusbar-overlay {
+    background: #e91e63;
+}
+
+.theme-purple .searchbar, .theme-purple .statusbar-overlay {
+    background: #9c27b0;
+}
+
+.theme-deeppurple .searchbar, .theme-deeppurple .statusbar-overlay {
+    background: #673ab7;
+}
+
+.theme-indigo .searchbar, .theme-indigo .statusbar-overlay {
+    background: #3f51b5;
+}
+
+.theme-blue .searchbar, .theme-blue .statusbar-overlay {
+    background: #2196f3;
+}
+
+.theme-lightblue .searchbar, .theme-lightblue .statusbar-overlay {
+    background: #03a9f4;
+}
+
+.theme-cyan .searchbar, .theme-cyan .statusbar-overlay {
+    background: #00bcd4;
+}
+
+.theme-teal .searchbar, .theme-teal .statusbar-overlay {
+    background: #009688;
+}
+
+.theme-green .searchbar, .theme-green .statusbar-overlay {
+    background: #4caf50;
+}
+
+.theme-lightgreen .searchbar, .theme-lightgreen .statusbar-overlay {
+    background: #8bc34a;
+}
+
+.theme-lime .searchbar, .theme-lime .statusbar-overlay {
+    background: #cddc39;
+}
+
+.theme-yellow .searchbar, .theme-yellow .statusbar-overlay {
+    background: #ffeb3b;
+}
+
+.theme-amber .searchbar, .theme-amber .statusbar-overlay {
+    background: #ffc107;
+}
+
+.theme-orange .searchbar, .theme-orange .statusbar-overlay {
+    background: #ff9800;
+}
+
+.theme-deeporange .searchbar, .theme-deeporange .statusbar-overlay {
+    background: #ff5722;
+}
+
+.theme-brown .searchbar, .theme-brown .statusbar-overlay {
+    background: #795548;
+}
+
+.theme-gray .searchbar, .theme-gray  .statusbar-overlay {
+    background: #9e9e9e;
+}
+
+.theme-bluegray .searchbar, .theme-bluegray .statusbar-overlay {
+    background: #607d8b;
+}
+
+.theme-black .searchbar, .theme-black .statusbar-overlay {
+    background: #000000;
+}
+label.error{
+    font-size: medium;
+    color:red;
+    font-weight: 500;
+}
+.search-patient.list-block li li:last-child .item-inner:after, .search-patient.list-block li:last-child li .item-inner:after {
+  height: 0;
+}
+.search-patient.list-block .item-inner:after {
+  height: 0;
+}
+.nearme-maps.navbar {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)!important;
+}
+
+.preloader-indicator-modal{
+   /* z-index:13499;*/
+}
+/*Badge*/
+.make-notification-msg {
+    margin-top: -34px;
+    margin-left: -6px!important;
+    display: inline;
+    line-height: 13px;
+    font-size: 10px;
+}
+
+.floating-button-custom{
+/*    position: absolute;*/
+    right: 16px;
+    bottom: 16px;
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 50%;
+    z-index: 1500;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+/*    background-color: #2196f3;*/
+    color: #fff;
+    overflow: hidden;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+/* big switch button*/
+.label-switch-custom .checkbox {
+    width: 57px;
+    height: 35px;
+}
+.label-switch-custom .checkbox:after {
+    
+    height: 34px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+}
+
+/* sibblings and birth order radio */
+label.label-radio i.icon-form-radio{
+    width: 40px;
+    height: 40px;
+}
+label.label-radio i.icon-form-radio:after{
+    width: 20px;
+    height: 20px;
+    left: 37%;
+    top: 37%;
+}
+/* Key populations  radio */
+label.label-radio-keypop i.icon-form-radio{
+    width: 20px;
+    height: 20px;
+}
+label.label-radio-keypop i.icon-form-radio:after{
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    top: 50%;
+}
+
+.label-radio-custom{
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 24px;
+}
+label.label-radio{
+    padding-left: 10px !important;
+}
+
+.item-input-field.focus-state:after,
+.input-field.focus-state:after,
+.item-input-field.not-empty-state:after,
+.input-field.not-empty-state:after,
+.focus-state .item-input-field:after,
+.focus-state .input-field:after,
+.not-empty-state .item-input-field:after,
+.not-empty-state .input-field:after {
+  /*background: #d32f2f !important;*/
+}
+.button.button-big{
+    border-radius: 25px;
+}
+.button{
+    border-radius: 25px;
+}
+.list-block .item-media + .item-inner{
+/*    margin-left: 0px !important;*/
+}
+
+/* ------- navbar fixes -------- */
+.navbar-fixed .toolbar{
+    top: 45px;
+}
+.list-block .label, .list-block .floating-label{
+    color: #000000;
+}
+.navbar{
+    height: 40px;
+}
+.tabbar a.tab-link.active{
+    background-color: #d32f2f;
+}

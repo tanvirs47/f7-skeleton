@@ -1,0 +1,90 @@
+<div class="page no-navbar_1" data-page="signin">
+    <style type="text/css">
+        *:not(input,textarea) {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none; /* Disable selection/Copy of UIWebView */
+        }
+    </style>
+    <div class="page-content">
+
+        <div class="content-block zero" style="width:100%;height:auto;text-align:center;padding-top:10px;">
+            <img src="images/stc_logo.png" class="applogo" style="max-width: 145px;">
+            <!--style="width:180px;"-->
+            <h2 data-i18n="app.appname" class="zero-t color-red" style="margin-bottom:0px;">Referral Management System</h2>
+<!--            <span data-i18n="app.version"></span>-->
+        </div>
+
+        <div class="content-block" style="padding-top:0px;">
+
+            <form id="frmLogin" style="max-width: 500px;margin: auto;">
+
+                <div class="list-block">
+                    <ul>
+                        <li style="margin-bottom:30px;">
+                            <div class="item-content">
+<!--                                <div class="item-media"><i class="fa fa-calendar fa-2x" aria-hidden="true" style="font-size: 25px;"></i></div>-->
+                                <div class="item-inner">
+<!--                                    <div class="item-title label" data-i18n="signin.chooseLanguage">Choose Language</div>-->
+                                    <div class="item-input item-input-field">
+                                        
+                                        <select id="changeLanguage" name="changeLanguage">
+                                            <option value="en" data-i18n="setting.english">English(United States)</option>
+                                            <option value="my" data-i18n="setting.burmese">မြန်မ</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content">
+                            <div class="item-inner">
+
+                                <div class="item-title label" data-i18n="signin.userName">Username</div>
+                                <div class="item-input">
+                                    <input type="text" name="j_username" data-i18n="[placeholder]signin.userName">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label" data-i18n="signin.password">Password</div>
+                                <div class="item-input">
+                                    <input type="password" name="j_password" data-i18n="[placeholder]signin.password">
+                                </div>
+                            </div>
+                        </li>
+<!--
+                        <li>
+                            <label class="label-checkbox item-content no-ripple">
+                                
+                                <input type="checkbox" name="chk-showpassword" id="chk-showpassword">
+                                <div class="item-media">
+                                    <i class="icon icon-form-checkbox"></i>
+                                </div>
+                                <div class="item-inner" style="padding-top: 12px;margin-left: 0px;">
+                                    <div class="item-title">Show Password</div>
+                                </div>
+                            </label>
+                        </li>
+-->
+                    </ul>
+                </div>
+
+                
+                <div>
+                    <div class="buttons-row">
+                        <a href="#" class="button button-round active button-fill button-big trigger-signin">
+                            <span style="text-transform:none;" data-i18n="signin.signIn">Sign In</span></a>
+
+                        <!--<a href="#" class="button">Button</a>-->
+                    </div>
+                    <br />
+<!--                    <a href="#" class="trigger-changeLang" data-i18n="signin.chooseLanguage">Choose Language</a>-->
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>

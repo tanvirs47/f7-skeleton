@@ -1,0 +1,40 @@
+<div class="popup popup-chooseLanguage">
+    <div class="page navbar-fixed" data-page="addnearme">
+    
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <!--<a href="#" class="open-panel link icon-only" data-panel="left"><i class="icon icon-bars"></i></a>-->
+                    <a href="#" class="back1 close-popup link icon-only"><i class="icon icon-back"></i></a>
+                </div>
+                <div class="center"> <span data-i18n="signin.chooseLanguage">Choose Language</span> </div>
+                <div class="right">                
+                    <!--<a href="#" class="link icon-only reload-nm"><i class="ion-ios-refresh-empty"></i></a>-->
+                </div>
+            </div>    
+        </div>
+
+        <div class="page-content">
+            <div class="list-block media-list list-block-search searchbar-found">
+                <ul>
+                    {{#each this}}
+                    <li class="swipeout">
+                        <div class="swipeout-content">
+                            <a href="#" class="item-link item-content close-popup trigger-change-lang" data-code="{{code}}">
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title bolder"><!--{{title}}-->{{localiedTitle}}</div>
+                                        <div class="item-after"></div>
+                                    </div>
+                                    <div class="item-subtitle"></div>
+                                    <div class="item-text"><!--{{localiedTitle}}--></div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>            
+        </div>
+    </div>
+</div>

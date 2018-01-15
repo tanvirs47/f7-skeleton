@@ -1,49 +1,291 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+<head>
+    <title>STC</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#000"> <!--2196f3-->
+    
+    
+    <link rel="stylesheet" href="libraries/Framework7/css/framework7.material.css">
+    <link rel="stylesheet" href="libraries/Framework7/css/framework7.material.colors.css">
+    <link rel="stylesheet" href="libraries/Framework7/custom/css/kitchen-sink.css" />
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="libraries/leaflet/0.7.3/leaflet.css">
+    <link rel="stylesheet" href="libraries/leaflet/plugins/PruneCluster/LeafletStyleSheet.css">
+    <link rel="stylesheet" href="libraries/leaflet/plugins/Leaflet.loading/Control.Loading.css">    
+    <link rel="stylesheet" href="libraries/leaflet/plugins/Leaflet.awesome-marker/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="libraries/leaflet/plugins/leaflet.markercluster/MarkerCluster.css">
+    <link rel="stylesheet" href="libraries/leaflet/plugins/leaflet.markercluster/MarkerCluster.Default.css">
+    
+    
+    
+    <link rel="stylesheet" href="application/override.css">
+    <link rel="stylesheet" href="application/application.css">
+    <link rel="stylesheet" href="application/helper.css">
+    
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="libraries/Framework7/js/framework7.js"></script>
+    
+   
+</head>
+<body class="layout-white theme-red">
+
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    
+    <div class="panel panel-left panel-cover">
+        <div class="view view-left">
+            <div class="pages navbar-fixed">
+                <div data-page="panel-left" class="page">
+                    <div class="navbar">
+                      <div class="navbar-inner">                          
+                        <div class="center">
+                            <span data-i18n="app.welcome" style="font-size:14px;">Welcome - </span>
+                            <span class="logged-in-user"></span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="page-content">
+
+                        <div class="list-block">
+                            <ul>
+                            
+                                <li>
+                                    <a href="#" class="item-link close-panel trigger-home-page"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-home" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.home">Home</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="hide">
+                                    <a href="fragments/nearme.html" data-view=".view-main"  class="item-link close-panel"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red" style="font-size:24px;">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.nearme">Near Me</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="fragments/alerts.html" data-view=".view-main" class="item-link close-panel side-panel-alert"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-bell" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.alerts">Alerts</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="fragments/my-clients.html" data-view=".view-main" class="item-link close-panel btn-client-profile"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.myclients">Client profile</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fragments/targets.html" data-view=".view-main" class="item-link close-panel btn-targets"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-bullseye" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.targets">Targets</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fragments/notifications.html" data-view=".view-main" class="item-link close-panel"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-comment-o" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.notifications">Notifications</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fragments/settings.html" data-view=".view-main" class="item-link close-panel"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-cogs" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.settings">Settings</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fragments/help.html" data-view=".view-main" class="item-link close-panel"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.help">Help</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="hide">
+                                    <a href="fragments/user-profile.html" data-view=".view-main" class="item-link close-panel"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-blue font-20"><i class="fa fa-user" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.profile">Profile</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-view=".view-main"  class="item-link close-panel trigger-logout"> 
+                                        <div class="item-content">
+                                            <div class="item-media color-red font-20"><i class="fa fa-sign-out" aria-hidden="true"></i></div>
+                                            <div class="item-inner"> 
+                                                <div class="item-title"><span data-i18n="menu.logout">Logout</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+    </div>
+    
+    
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages navbar-fixed">
+                <div class="page no-navbar" data-page="index">
+                    <div class="page-content" style="width:100%;text-align:center;">
+                        <span class="preloader valign"></span>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script id="marker-popup-template" type="text/template7">
+    
+        <div class="list-block media-list">
+          <ul>
+            <li>
+              <a href="#" class="item-link1 item-content">
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">{{name}}</div>
+                  </div>
+                  <div class="item-subtitle">{{type}}</div>
+                  <div class="item-text">{{summary}}</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </script>
+    
+    <div class="popover popover-links">
+        <div class="popover-angle"></div>
+        <div class="popover-inner">
+          <div class="list-block">
+            <ul>
+                <li>
+                    <a href="#" class="item-link language-item" data-code="en">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">
+                                    <span class="block"><span>English(US)</span></span>
+                                </div>
+                                <div class="item-after"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-link language-item" data-code="my">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">
+                                    <span class="block"><span data-i18n="setting.burmese">မြန်မ</span></span>
+                                </div>
+                                <div class="item-after"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        </div>
+    </div>
+        
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArc2ejTW4QyJw8-Ki5sRvl_DiQX06boD4" type="text/javascript"></script>
+    <script type="text/javascript" src="libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="libraries/taffy-min.js"></script>
+    <script type="text/javascript" src="libraries/json.js"></script>
+    <script type="text/javascript" src="libraries/jstorage.js"></script>
+    <script type="text/javascript" src="libraries/moment.min.js"></script>
+    <script type="text/javascript" src="libraries/jstz-1.0.4.min.js"></script>
+    <script type="text/javascript" src="libraries/MyRequestsCompleted.js"></script>
+    <script type="text/javascript" src="libraries/i18next.js"></script>
+<!--    <script type="text/javascript" src="libraries/jquery.validate.js"></script>-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    
+    <script type="text/javascript" src="libraries/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="libraries/handlebars.min.js"></script>
+    
+    <script type="text/javascript" src="libraries/pouchdb-6.3.4.min.js"></script>
+            
+    <script src="libraries/leaflet/0.7.3/leaflet.js"></script>
+    <script src="libraries/leaflet/plugins/provider/Google.js"></script>
+    <script src="libraries/leaflet/plugins/PruneCluster/PruneCluster.js"></script>
+    <script src="libraries/leaflet/plugins/Leaflet.loading/Control.Loading.js"></script>
+    <script src="libraries/leaflet/plugins/Leaflet.awesome-marker/leaflet.awesome-markers.js"></script>
+    <script src="libraries/leaflet/plugins/leaflet.markercluster/leaflet.markercluster.js"></script>
+    
+    <script src="libraries/highcharts/highcharts.js"></script>
+<!--    <script src="libraries/highcharts/highcharts-3d.js"></script>-->
+    
+<!--    <script type="text/javascript" src="application/html5API.js"></script>-->
+    <script type="text/javascript" src="application/cordovaAPI.js"></script>
+    <script type="text/javascript" src="application/translations.js"></script>
+    
+    <script type="text/javascript" src="application/config.js"></script>
+    <script type="text/javascript" src="application/apiservices.js"></script>
+<!--    <script type="text/javascript" src="application/utils.js"></script>-->
+    <script type="text/javascript" src="application/appDB.js"></script>
+    <script type="text/javascript" src="application/application.js"></script>
+    <script type="text/javascript" src="application/validations.js"></script>
+    <script type="text/javascript" src="application/uc.js"></script>
+    <script type="text/javascript" src="application/ux.js"></script>
+    <script type="text/javascript" src="application/modules.js"></script>
+    <script type="text/javascript" src="application/nmmap.js"></script>
+    <script type="text/javascript" src="application/anmmap.js"></script>
+    <script type="text/javascript" src="application/onesignalAPI.js"></script>
+    
+    
+    <script type="text/javascript" src="application/map.js"></script>
+    
+<!--    <script type="text/javascript" src="application/statistics.js"></script>  -->
+</body>
 </html>

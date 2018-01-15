@@ -1,0 +1,46 @@
+.square * {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.list-block {
+    margin: 0px;
+}
+
+.hide {
+    display: none !important;
+}
+
+
+.zero {
+    margin: 0px;
+    padding: 0px;    
+}
+
+.img-circle{border-radius:50%}
+
+.avtar {
+    width: 90%;
+    height: auto;
+    max-width: 250px;
+}
+
+
+.block, .clearfix {
+  clear: both; 
+}
+
+.borderless {
+	border: 0px !important;
+    outline: none;
+}
+
+.valign {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

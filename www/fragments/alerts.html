@@ -1,0 +1,41 @@
+
+<div class="page" data-page="alerts">
+    
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="open-panel link icon-only" data-panel="left"><i class="icon icon-bars"></i></a>
+            </div>
+            <div class="center"><span data-i18n="menu.alerts">Alerts</span></div>
+            <div class="right">                
+                <!--<a href="fragments/notifications.html" class="link icon-only"><i class="ion-ios-bell"></i></a>-->
+                <a href="#" data-popover=".popover-links" class="link open-popover"><i class="fa fa-language" aria-hidden="true"></i></a>
+            </div>
+        </div>    
+    </div>
+    <a href="#" class="floating-button trigger-back color-indigo"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    <div class="toolbar tabbar theme-gray">
+        <div class="toolbar-inner">
+            <a href="#tab1" class="active tab-link"><span data-i18n="alert.referralFollowup">Referral Follow-up</span></a>
+            <a href="#tab2" class="tab-link trigger-referral-tab"><span data-i18n="alert.dueDateFollowup">Due Date Follow-up</span></a>
+        </div>
+    </div>
+    <div class="tabs-animated-wrap1 tabs-swipeable-wrap">
+        <div class="tabs">
+            <div id="tab1" class="page-content tab active">
+                <div class="content-block" style="margin-top:45px">
+                    <div id="duePatientList"></div>
+                    
+                </div>
+            </div>
+            
+            <div id="tab2" class="page-content tab">
+                <div class="content-block" style="margin-top:45px">
+                    <div id="refPatientList"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>

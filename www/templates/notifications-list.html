@@ -1,0 +1,26 @@
+<ul>
+    {{#each data}}
+    
+    <li>
+        <a href="#" class="item-content">
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">{{to_user_Fname}} {{to_user_Sname}}</div>
+                    <div class="item-after">{{fromNow date}}</div>
+                </div>
+                
+                <div class="item-text">{{notification}}</div>
+            </div>
+        </a>
+    </li>
+    {{else}}
+        <li>
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title" style="margin-left: 20px;" data-i18n="notifications.empty">Notifications not found!</div>
+                </div>
+            </div>
+        </li>
+        
+    {{/each}}
+</ul>

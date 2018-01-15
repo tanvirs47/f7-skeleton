@@ -1,0 +1,3034 @@
+{
+    "en": {
+        "Kachin": {
+            "id": "1",
+            "data": [
+                {
+                    "cityId": "1",
+                    "cityName": "Myitkyina"
+                },
+                {
+                    "cityId": "2",
+                    "cityName": "Waingmaw"
+                },
+                {
+                    "cityId": "3",
+                    "cityName": "Injangyang"
+                },
+                {
+                    "cityId": "4",
+                    "cityName": "Tanai"
+                },
+                {
+                    "cityId": "5",
+                    "cityName": "Chipwi"
+                },
+                {
+                    "cityId": "6",
+                    "cityName": "Tsawlaw"
+                },
+                {
+                    "cityId": "7",
+                    "cityName": "Mohnyin"
+                },
+                {
+                    "cityId": "8",
+                    "cityName": "Mogaung"
+                },
+                {
+                    "cityId": "9",
+                    "cityName": "Hpakant"
+                },
+                {
+                    "cityId": "10",
+                    "cityName": "Bhamo"
+                },
+                {
+                    "cityId": "11",
+                    "cityName": "Shwegu"
+                },
+                {
+                    "cityId": "12",
+                    "cityName": "Momauk"
+                },
+                {
+                    "cityId": "13",
+                    "cityName": "Mansi"
+                },
+                {
+                    "cityId": "14",
+                    "cityName": "Puta-O"
+                },
+                {
+                    "cityId": "15",
+                    "cityName": "Sumprabum"
+                },
+                {
+                    "cityId": "16",
+                    "cityName": "Machanbaw"
+                },
+                {
+                    "cityId": "17",
+                    "cityName": "Nawngmun"
+                },
+                {
+                    "cityId": "18",
+                    "cityName": "Khaunglanhpu"
+                }
+            ]
+        },
+        "Kayah": {
+            "id": "2",
+            "data": [
+                {
+                    "cityId": "19",
+                    "cityName": "Loikaw"
+                },
+                {
+                    "cityId": "20",
+                    "cityName": "Demoso"
+                },
+                {
+                    "cityId": "21",
+                    "cityName": "Hpruso"
+                },
+                {
+                    "cityId": "22",
+                    "cityName": "Shadaw"
+                },
+                {
+                    "cityId": "23",
+                    "cityName": "Bawlake"
+                },
+                {
+                    "cityId": "24",
+                    "cityName": "Hpasawng"
+                },
+                {
+                    "cityId": "25",
+                    "cityName": "Mese"
+                }
+            ]
+        },
+        "Kayin": {
+            "id": "3",
+            "data": [
+                {
+                    "cityId": "26",
+                    "cityName": "Hpa-An"
+                },
+                {
+                    "cityId": "27",
+                    "cityName": "Hlaingbwe"
+                },
+                {
+                    "cityId": "28",
+                    "cityName": "Hpapun"
+                },
+                {
+                    "cityId": "29",
+                    "cityName": "Thandaunggyi"
+                },
+                {
+                    "cityId": "30",
+                    "cityName": "Myawaddy"
+                },
+                {
+                    "cityId": "31",
+                    "cityName": "Kawkareik"
+                },
+                {
+                    "cityId": "32",
+                    "cityName": "Kyainseikgyi"
+                }
+            ]
+        },
+        "Chin": {
+            "id": "4",
+            "data": [
+                {
+                    "cityId": "33",
+                    "cityName": "Falam"
+                },
+                {
+                    "cityId": "34",
+                    "cityName": "Hakha"
+                },
+                {
+                    "cityId": "35",
+                    "cityName": "Thantlang"
+                },
+                {
+                    "cityId": "36",
+                    "cityName": "Tedim"
+                },
+                {
+                    "cityId": "37",
+                    "cityName": "Tonzang"
+                },
+                {
+                    "cityId": "38",
+                    "cityName": "Mindat"
+                },
+                {
+                    "cityId": "39",
+                    "cityName": "Matupi"
+                },
+                {
+                    "cityId": "40",
+                    "cityName": "Kanpetlet"
+                },
+                {
+                    "cityId": "41",
+                    "cityName": "Paletwa"
+                }
+            ]
+        },
+        "Sagaing": {
+            "id": "5",
+            "data": [
+                {
+                    "cityId": "42",
+                    "cityName": "Sagaing"
+                },
+                {
+                    "cityId": "43",
+                    "cityName": "Myinmu"
+                },
+                {
+                    "cityId": "44",
+                    "cityName": "Myaung"
+                },
+                {
+                    "cityId": "45",
+                    "cityName": "Shwebo"
+                },
+                {
+                    "cityId": "46",
+                    "cityName": "Khin-U"
+                },
+                {
+                    "cityId": "47",
+                    "cityName": "Wetlet"
+                },
+                {
+                    "cityId": "48",
+                    "cityName": "Kanbalu"
+                },
+                {
+                    "cityId": "49",
+                    "cityName": "Kyunhla"
+                },
+                {
+                    "cityId": "50",
+                    "cityName": "Ye-U"
+                },
+                {
+                    "cityId": "51",
+                    "cityName": "Tabayin"
+                },
+                {
+                    "cityId": "52",
+                    "cityName": "Taze"
+                },
+                {
+                    "cityId": "53",
+                    "cityName": "Monywa"
+                },
+                {
+                    "cityId": "54",
+                    "cityName": "Budalin"
+                },
+                {
+                    "cityId": "55",
+                    "cityName": "Ayadaw"
+                },
+                {
+                    "cityId": "56",
+                    "cityName": "Chaung-U"
+                },
+                {
+                    "cityId": "57",
+                    "cityName": "Yinmarbin"
+                },
+                {
+                    "cityId": "58",
+                    "cityName": "Kani"
+                },
+                {
+                    "cityId": "59",
+                    "cityName": "Salingyi"
+                },
+                {
+                    "cityId": "60",
+                    "cityName": "Pale"
+                },
+                {
+                    "cityId": "61",
+                    "cityName": "Katha"
+                },
+                {
+                    "cityId": "62",
+                    "cityName": "Indaw"
+                },
+                {
+                    "cityId": "63",
+                    "cityName": "Tigyaing"
+                },
+                {
+                    "cityId": "64",
+                    "cityName": "Banmauk"
+                },
+                {
+                    "cityId": "65",
+                    "cityName": "Kawlin"
+                },
+                {
+                    "cityId": "66",
+                    "cityName": "Wuntho"
+                },
+                {
+                    "cityId": "67",
+                    "cityName": "Pinlebu"
+                },
+                {
+                    "cityId": "68",
+                    "cityName": "Kale"
+                },
+                {
+                    "cityId": "69",
+                    "cityName": "Kalewa"
+                },
+                {
+                    "cityId": "70",
+                    "cityName": "Mingin"
+                },
+                {
+                    "cityId": "71",
+                    "cityName": "Tamu"
+                },
+                {
+                    "cityId": "72",
+                    "cityName": "Mawlaik"
+                },
+                {
+                    "cityId": "73",
+                    "cityName": "Paungbyin"
+                },
+                {
+                    "cityId": "74",
+                    "cityName": "Hkamti"
+                },
+                {
+                    "cityId": "75",
+                    "cityName": "Homalin"
+                },
+                {
+                    "cityId": "76",
+                    "cityName": "Lay Shi"
+                },
+                {
+                    "cityId": "77",
+                    "cityName": "Lahe"
+                },
+                {
+                    "cityId": "78",
+                    "cityName": "Nanyun"
+                }
+            ]
+        },
+        "Tanintharyi": {
+            "id": "6",
+            "data": [
+                {
+                    "cityId": "79",
+                    "cityName": "Dawei"
+                },
+                {
+                    "cityId": "80",
+                    "cityName": "Launglon"
+                },
+                {
+                    "cityId": "81",
+                    "cityName": "Thayetchaung"
+                },
+                {
+                    "cityId": "82",
+                    "cityName": "Yebyu"
+                },
+                {
+                    "cityId": "83",
+                    "cityName": "Myeik"
+                },
+                {
+                    "cityId": "84",
+                    "cityName": "Kyunsu"
+                },
+                {
+                    "cityId": "85",
+                    "cityName": "Palaw"
+                },
+                {
+                    "cityId": "86",
+                    "cityName": "6"
+                },
+                {
+                    "cityId": "87",
+                    "cityName": "Kawthoung"
+                },
+                {
+                    "cityId": "88",
+                    "cityName": "Bokpyin"
+                }
+            ]
+        },
+        "Bago (East)": {
+            "id": "7",
+            "data": [
+                {
+                    "cityId": "89",
+                    "cityName": "Bago"
+                },
+                {
+                    "cityId": "90",
+                    "cityName": "Thanatpin"
+                },
+                {
+                    "cityId": "91",
+                    "cityName": "Kawa"
+                },
+                {
+                    "cityId": "92",
+                    "cityName": "Waw"
+                },
+                {
+                    "cityId": "93",
+                    "cityName": "Nyaunglebin"
+                },
+                {
+                    "cityId": "94",
+                    "cityName": "Kyauktaga"
+                },
+                {
+                    "cityId": "95",
+                    "cityName": "Daik-U"
+                },
+                {
+                    "cityId": "96",
+                    "cityName": "Shwegyin"
+                },
+                {
+                    "cityId": "97",
+                    "cityName": "Taungoo"
+                },
+                {
+                    "cityId": "98",
+                    "cityName": "Yedashe"
+                },
+                {
+                    "cityId": "99",
+                    "cityName": "Kyaukkyi"
+                },
+                {
+                    "cityId": "100",
+                    "cityName": "Phyu"
+                },
+                {
+                    "cityId": "101",
+                    "cityName": "Oktwin"
+                },
+                {
+                    "cityId": "102",
+                    "cityName": "Htantabin"
+                }
+            ]
+        },
+        "Bago (West)": {
+            "id": "8",
+            "data": [
+                {
+                    "cityId": "103",
+                    "cityName": "Pyay"
+                },
+                {
+                    "cityId": "104",
+                    "cityName": "Paukkhaung"
+                },
+                {
+                    "cityId": "105",
+                    "cityName": "Padaung"
+                },
+                {
+                    "cityId": "106",
+                    "cityName": "Paungde"
+                },
+                {
+                    "cityId": "107",
+                    "cityName": "Thegon"
+                },
+                {
+                    "cityId": "108",
+                    "cityName": "Shwedaung"
+                },
+                {
+                    "cityId": "109",
+                    "cityName": "Thayarwady"
+                },
+                {
+                    "cityId": "110",
+                    "cityName": "Letpadan"
+                },
+                {
+                    "cityId": "111",
+                    "cityName": "Minhla"
+                },
+                {
+                    "cityId": "112",
+                    "cityName": "Okpho"
+                },
+                {
+                    "cityId": "113",
+                    "cityName": "Zigon"
+                },
+                {
+                    "cityId": "114",
+                    "cityName": "Nattalin"
+                },
+                {
+                    "cityId": "115",
+                    "cityName": "Monyo"
+                },
+                {
+                    "cityId": "116",
+                    "cityName": "Gyobingauk"
+                }
+            ]
+        },
+        "Magway": {
+            "id": "9",
+            "data": [
+                {
+                    "cityId": "117",
+                    "cityName": "Magway"
+                },
+                {
+                    "cityId": "118",
+                    "cityName": "Yenangyaung"
+                },
+                {
+                    "cityId": "119",
+                    "cityName": "Chauk"
+                },
+                {
+                    "cityId": "120",
+                    "cityName": "Taungdwingyi"
+                },
+                {
+                    "cityId": "121",
+                    "cityName": "Myothit"
+                },
+                {
+                    "cityId": "122",
+                    "cityName": "Natmauk"
+                },
+                {
+                    "cityId": "123",
+                    "cityName": "Minbu"
+                },
+                {
+                    "cityId": "124",
+                    "cityName": "Pwintbyu"
+                },
+                {
+                    "cityId": "125",
+                    "cityName": "Ngape"
+                },
+                {
+                    "cityId": "126",
+                    "cityName": "Salin"
+                },
+                {
+                    "cityId": "127",
+                    "cityName": "Sidoktaya"
+                },
+                {
+                    "cityId": "128",
+                    "cityName": "Thayet"
+                },
+                {
+                    "cityId": "129",
+                    "cityName": "Minhla"
+                },
+                {
+                    "cityId": "130",
+                    "cityName": "Mindon"
+                },
+                {
+                    "cityId": "131",
+                    "cityName": "Kamma"
+                },
+                {
+                    "cityId": "132",
+                    "cityName": "Aunglan"
+                },
+                {
+                    "cityId": "133",
+                    "cityName": "Sinbaungwe"
+                },
+                {
+                    "cityId": "134",
+                    "cityName": "Pakokku"
+                },
+                {
+                    "cityId": "135",
+                    "cityName": "Yesagyo"
+                },
+                {
+                    "cityId": "136",
+                    "cityName": "Myaing"
+                },
+                {
+                    "cityId": "137",
+                    "cityName": "Pauk"
+                },
+                {
+                    "cityId": "138",
+                    "cityName": "Seikphyu"
+                },
+                {
+                    "cityId": "139",
+                    "cityName": "Gangaw"
+                },
+                {
+                    "cityId": "140",
+                    "cityName": "Tilin"
+                },
+                {
+                    "cityId": "141",
+                    "cityName": "Saw"
+                }
+            ]
+        },
+        "Mandalay": {
+            "id": "10",
+            "data": [
+                {
+                    "cityId": "142",
+                    "cityName": "Aungmyaythazan"
+                },
+                {
+                    "cityId": "143",
+                    "cityName": "Chanayethazan"
+                },
+                {
+                    "cityId": "144",
+                    "cityName": "Mahaaungmyay"
+                },
+                {
+                    "cityId": "145",
+                    "cityName": "Chanmyathazi"
+                },
+                {
+                    "cityId": "146",
+                    "cityName": "Pyigyitagon"
+                },
+                {
+                    "cityId": "147",
+                    "cityName": "Amarapura"
+                },
+                {
+                    "cityId": "148",
+                    "cityName": "Patheingyi"
+                },
+                {
+                    "cityId": "149",
+                    "cityName": "Pyinoolwin"
+                },
+                {
+                    "cityId": "150",
+                    "cityName": "Madaya"
+                },
+                {
+                    "cityId": "151",
+                    "cityName": "Singu"
+                },
+                {
+                    "cityId": "152",
+                    "cityName": "Mogoke"
+                },
+                {
+                    "cityId": "153",
+                    "cityName": "Thabeikkyin"
+                },
+                {
+                    "cityId": "154",
+                    "cityName": "Kyaukse"
+                },
+                {
+                    "cityId": "155",
+                    "cityName": "Sintgaing"
+                },
+                {
+                    "cityId": "156",
+                    "cityName": "Myittha"
+                },
+                {
+                    "cityId": "157",
+                    "cityName": "Tada-U"
+                },
+                {
+                    "cityId": "158",
+                    "cityName": "Myingyan"
+                },
+                {
+                    "cityId": "159",
+                    "cityName": "Taungtha"
+                },
+                {
+                    "cityId": "160",
+                    "cityName": "Natogyi"
+                },
+                {
+                    "cityId": "161",
+                    "cityName": "Kyaukpadaung"
+                },
+                {
+                    "cityId": "162",
+                    "cityName": "Ngazun"
+                },
+                {
+                    "cityId": "163",
+                    "cityName": "Nyaung-U"
+                },
+                {
+                    "cityId": "164",
+                    "cityName": "Yamethin"
+                },
+                {
+                    "cityId": "165",
+                    "cityName": "Pyawbwe"
+                },
+                {
+                    "cityId": "166",
+                    "cityName": "Meiktila"
+                },
+                {
+                    "cityId": "167",
+                    "cityName": "Mahlaing"
+                },
+                {
+                    "cityId": "168",
+                    "cityName": "Thazi"
+                },
+                {
+                    "cityId": "169",
+                    "cityName": "Wundwin"
+                }
+            ]
+        },
+        "Mon": {
+            "id": "11",
+            "data": [
+                {
+                    "cityId": "170",
+                    "cityName": "Mawlamyine"
+                },
+                {
+                    "cityId": "171",
+                    "cityName": "Kyaikmaraw"
+                },
+                {
+                    "cityId": "172",
+                    "cityName": "Chaungzon"
+                },
+                {
+                    "cityId": "173",
+                    "cityName": "Thanbyuzayat"
+                },
+                {
+                    "cityId": "174",
+                    "cityName": "Mudon"
+                },
+                {
+                    "cityId": "175",
+                    "cityName": "Ye"
+                },
+                {
+                    "cityId": "176",
+                    "cityName": "Thaton"
+                },
+                {
+                    "cityId": "177",
+                    "cityName": "Paung"
+                },
+                {
+                    "cityId": "178",
+                    "cityName": "Kyaikto"
+                },
+                {
+                    "cityId": "179",
+                    "cityName": "Bilin"
+                }
+            ]
+        },
+        "Rakhine": {
+            "id": "12",
+            "data": [
+                {
+                    "cityId": "180",
+                    "cityName": "Sittwe"
+                },
+                {
+                    "cityId": "181",
+                    "cityName": "Ponnagyun"
+                },
+                {
+                    "cityId": "182",
+                    "cityName": "Mrauk-U"
+                },
+                {
+                    "cityId": "183",
+                    "cityName": "Kyauktaw"
+                },
+                {
+                    "cityId": "184",
+                    "cityName": "Minbya"
+                },
+                {
+                    "cityId": "185",
+                    "cityName": "Myebon"
+                },
+                {
+                    "cityId": "186",
+                    "cityName": "Pauktaw"
+                },
+                {
+                    "cityId": "187",
+                    "cityName": "Rathedaung"
+                },
+                {
+                    "cityId": "188",
+                    "cityName": "Maungdaw"
+                },
+                {
+                    "cityId": "189",
+                    "cityName": "Buthidaung"
+                },
+                {
+                    "cityId": "190",
+                    "cityName": "Kyaukpyu"
+                },
+                {
+                    "cityId": "191",
+                    "cityName": "Munaung"
+                },
+                {
+                    "cityId": "192",
+                    "cityName": "Ramree"
+                },
+                {
+                    "cityId": "193",
+                    "cityName": "Ann"
+                },
+                {
+                    "cityId": "194",
+                    "cityName": "Thandwe"
+                },
+                {
+                    "cityId": "195",
+                    "cityName": "Toungup"
+                },
+                {
+                    "cityId": "196",
+                    "cityName": "Gwa"
+                }
+            ]
+        },
+        "Yangon": {
+            "id": "13",
+            "data": [
+                {
+                    "cityId": "197",
+                    "cityName": "Insein"
+                },
+                {
+                    "cityId": "198",
+                    "cityName": "Mingaladon"
+                },
+                {
+                    "cityId": "199",
+                    "cityName": "Hmawbi"
+                },
+                {
+                    "cityId": "200",
+                    "cityName": "Hlegu"
+                },
+                {
+                    "cityId": "201",
+                    "cityName": "Taikkyi"
+                },
+                {
+                    "cityId": "202",
+                    "cityName": "Htantabin"
+                },
+                {
+                    "cityId": "203",
+                    "cityName": "Shwepyithar"
+                },
+                {
+                    "cityId": "204",
+                    "cityName": "Hlaingtharya"
+                },
+                {
+                    "cityId": "205",
+                    "cityName": "Thingangyun"
+                },
+                {
+                    "cityId": "206",
+                    "cityName": "Yankin"
+                },
+                {
+                    "cityId": "207",
+                    "cityName": "South Okkalapa"
+                },
+                {
+                    "cityId": "208",
+                    "cityName": "North Okkalapa"
+                },
+                {
+                    "cityId": "209",
+                    "cityName": "Thaketa"
+                },
+                {
+                    "cityId": "210",
+                    "cityName": "Dawbon"
+                },
+                {
+                    "cityId": "211",
+                    "cityName": "Tamwe"
+                },
+                {
+                    "cityId": "212",
+                    "cityName": "Pazundaung"
+                },
+                {
+                    "cityId": "213",
+                    "cityName": "Botahtaung"
+                },
+                {
+                    "cityId": "214",
+                    "cityName": "Dagon Myothit (South)"
+                },
+                {
+                    "cityId": "215",
+                    "cityName": "Dagon Myothit (North)"
+                },
+                {
+                    "cityId": "216",
+                    "cityName": "Dagon Myothit (East)"
+                },
+                {
+                    "cityId": "217",
+                    "cityName": "Dagon Myothit (Seikkan)"
+                },
+                {
+                    "cityId": "218",
+                    "cityName": "Mingalartaungnyunt"
+                },
+                {
+                    "cityId": "219",
+                    "cityName": "Thanlyin"
+                },
+                {
+                    "cityId": "220",
+                    "cityName": "Kyauktan"
+                },
+                {
+                    "cityId": "221",
+                    "cityName": "Thongwa"
+                },
+                {
+                    "cityId": "222",
+                    "cityName": "Kayan"
+                },
+                {
+                    "cityId": "223",
+                    "cityName": "Twantay"
+                },
+                {
+                    "cityId": "224",
+                    "cityName": "Kawhmu"
+                },
+                {
+                    "cityId": "225",
+                    "cityName": "Kung13"
+                },
+                {
+                    "cityId": "226",
+                    "cityName": "Dala"
+                },
+                {
+                    "cityId": "227",
+                    "cityName": "Seikgyikanaungto"
+                },
+                {
+                    "cityId": "228",
+                    "cityName": "Cocokyun"
+                },
+                {
+                    "cityId": "229",
+                    "cityName": "Kyauktada"
+                },
+                {
+                    "cityId": "230",
+                    "cityName": "Pabedan"
+                },
+                {
+                    "cityId": "231",
+                    "cityName": "Lanmadaw"
+                },
+                {
+                    "cityId": "232",
+                    "cityName": "Latha"
+                },
+                {
+                    "cityId": "233",
+                    "cityName": "Ahlone"
+                },
+                {
+                    "cityId": "234",
+                    "cityName": "Kyeemyindaing"
+                },
+                {
+                    "cityId": "235",
+                    "cityName": "Sanchaung"
+                },
+                {
+                    "cityId": "236",
+                    "cityName": "Hlaing"
+                },
+                {
+                    "cityId": "237",
+                    "cityName": "Kamaryut"
+                },
+                {
+                    "cityId": "238",
+                    "cityName": "Ma13e"
+                },
+                {
+                    "cityId": "239",
+                    "cityName": "Dagon"
+                },
+                {
+                    "cityId": "240",
+                    "cityName": "Bahan"
+                },
+                {
+                    "cityId": "241",
+                    "cityName": "Seikkan"
+                }
+            ]
+        },
+        "Shan (South)": {
+            "id": "14",
+            "data": [
+                {
+                    "cityId": "242",
+                    "cityName": "Taunggyi"
+                },
+                {
+                    "cityId": "243",
+                    "cityName": "Nyaungshwe"
+                },
+                {
+                    "cityId": "244",
+                    "cityName": "Hopong"
+                },
+                {
+                    "cityId": "245",
+                    "cityName": "Hsihseng"
+                },
+                {
+                    "cityId": "246",
+                    "cityName": "Kalaw"
+                },
+                {
+                    "cityId": "247",
+                    "cityName": "Pindaya"
+                },
+                {
+                    "cityId": "248",
+                    "cityName": "Ywangan"
+                },
+                {
+                    "cityId": "249",
+                    "cityName": "Lawksawk"
+                },
+                {
+                    "cityId": "250",
+                    "cityName": "Pinlaung"
+                },
+                {
+                    "cityId": "251",
+                    "cityName": "Pekon"
+                },
+                {
+                    "cityId": "252",
+                    "cityName": "Loilen"
+                },
+                {
+                    "cityId": "253",
+                    "cityName": "Laihka"
+                },
+                {
+                    "cityId": "254",
+                    "cityName": "Nansang"
+                },
+                {
+                    "cityId": "255",
+                    "cityName": "Kunhing"
+                },
+                {
+                    "cityId": "256",
+                    "cityName": "Kyethi"
+                },
+                {
+                    "cityId": "257",
+                    "cityName": "11gkaing"
+                },
+                {
+                    "cityId": "258",
+                    "cityName": "11ghsu"
+                },
+                {
+                    "cityId": "259",
+                    "cityName": "Langkho"
+                },
+                {
+                    "cityId": "260",
+                    "cityName": "11gnai"
+                },
+                {
+                    "cityId": "261",
+                    "cityName": "Mawkmai"
+                },
+                {
+                    "cityId": "262",
+                    "cityName": "11gpan"
+                }
+            ]
+        },
+        "Shan (North)": {
+            "id": "15",
+            "data": [
+                {
+                    "cityId": "263",
+                    "cityName": "Lashio"
+                },
+                {
+                    "cityId": "264",
+                    "cityName": "Hseni"
+                },
+                {
+                    "cityId": "265",
+                    "cityName": "11gyai"
+                },
+                {
+                    "cityId": "266",
+                    "cityName": "Tangyan"
+                },
+                {
+                    "cityId": "267",
+                    "cityName": "Pangsang"
+                },
+                {
+                    "cityId": "268",
+                    "cityName": "Narphan"
+                },
+                {
+                    "cityId": "269",
+                    "cityName": "Pangwaun"
+                },
+                {
+                    "cityId": "270",
+                    "cityName": "11gmao"
+                },
+                {
+                    "cityId": "271",
+                    "cityName": "Muse"
+                },
+                {
+                    "cityId": "272",
+                    "cityName": "Namhkan"
+                },
+                {
+                    "cityId": "273",
+                    "cityName": "Kutkai"
+                },
+                {
+                    "cityId": "274",
+                    "cityName": "Kyaukme"
+                },
+                {
+                    "cityId": "275",
+                    "cityName": "Nawnghkio"
+                },
+                {
+                    "cityId": "276",
+                    "cityName": "Hsipaw"
+                },
+                {
+                    "cityId": "277",
+                    "cityName": "Namtu"
+                },
+                {
+                    "cityId": "278",
+                    "cityName": "Namhsan"
+                },
+                {
+                    "cityId": "279",
+                    "cityName": "11gmit"
+                },
+                {
+                    "cityId": "280",
+                    "cityName": "Mabein"
+                },
+                {
+                    "cityId": "281",
+                    "cityName": "Manton"
+                },
+                {
+                    "cityId": "282",
+                    "cityName": "Kunlong"
+                },
+                {
+                    "cityId": "283",
+                    "cityName": "Hopang"
+                },
+                {
+                    "cityId": "284",
+                    "cityName": "Laukkaing"
+                },
+                {
+                    "cityId": "285",
+                    "cityName": "Konkyan"
+                },
+                {
+                    "cityId": "286",
+                    "cityName": "Matman"
+                },
+                {
+                    "cityId": "287",
+                    "cityName": "Aik Chan (Ai Chun)"
+                },
+                {
+                    "cityId": "288",
+                    "cityName": "Konkyan (Kokang SAZ)"
+                },
+                {
+                    "cityId": "289",
+                    "cityName": "Laukkaing (Kokang SAZ)"
+                },
+                {
+                    "cityId": "290",
+                    "cityName": "4shwehaw Sub-township (Kokang SAZ)"
+                },
+                {
+                    "cityId": "291",
+                    "cityName": "Nam Tit"
+                },
+                {
+                    "cityId": "292",
+                    "cityName": "Nar Wee (Na Wi)"
+                },
+                {
+                    "cityId": "293",
+                    "cityName": "Man Tun"
+                },
+                {
+                    "cityId": "294",
+                    "cityName": "Kawng Min Hsang"
+                },
+                {
+                    "cityId": "295",
+                    "cityName": "Hsawng Hpa (Saun Pha)"
+                },
+                {
+                    "cityId": "296",
+                    "cityName": "Hkun Mar (Hkwin Ma)"
+                },
+                {
+                    "cityId": "297",
+                    "cityName": "Long Htan"
+                },
+                {
+                    "cityId": "298",
+                    "cityName": "Yawng Lin"
+                },
+                {
+                    "cityId": "299",
+                    "cityName": "Lin Haw"
+                },
+                {
+                    "cityId": "300",
+                    "cityName": "Ka Lawng Hpar"
+                },
+                {
+                    "cityId": "301",
+                    "cityName": "Yin Pang"
+                },
+                {
+                    "cityId": "302",
+                    "cityName": "Man Man Hseng"
+                },
+                {
+                    "cityId": "303",
+                    "cityName": "Nawng Hkit"
+                },
+                {
+                    "cityId": "304",
+                    "cityName": "Nam Hkam Wu"
+                },
+                {
+                    "cityId": "305",
+                    "cityName": "Nar Kawng"
+                },
+                {
+                    "cityId": "306",
+                    "cityName": "Pang Hkam"
+                },
+                {
+                    "cityId": "307",
+                    "cityName": "Pang Yang"
+                }
+            ]
+        },
+        "Shan (East)": {
+            "id": "16",
+            "data": [
+                {
+                    "cityId": "308",
+                    "cityName": "Kengtung"
+                },
+                {
+                    "cityId": "309",
+                    "cityName": "11gkhet"
+                },
+                {
+                    "cityId": "310",
+                    "cityName": "11gyang"
+                },
+                {
+                    "cityId": "311",
+                    "cityName": "11gla"
+                },
+                {
+                    "cityId": "312",
+                    "cityName": "11ghsat"
+                },
+                {
+                    "cityId": "313",
+                    "cityName": "11gping"
+                },
+                {
+                    "cityId": "314",
+                    "cityName": "11gton"
+                },
+                {
+                    "cityId": "315",
+                    "cityName": "Tachileik"
+                },
+                {
+                    "cityId": "316",
+                    "cityName": "11ghpyak"
+                },
+                {
+                    "cityId": "317",
+                    "cityName": "11gyawng"
+                },
+                {
+                    "cityId": "318",
+                    "cityName": "11g Hpen"
+                },
+                {
+                    "cityId": "319",
+                    "cityName": "Ho Tawng (Ho Tao)"
+                },
+                {
+                    "cityId": "320",
+                    "cityName": "11g Pawk"
+                },
+                {
+                    "cityId": "321",
+                    "cityName": "11g Kar"
+                },
+                {
+                    "cityId": "322",
+                    "cityName": "Nam Hpai"
+                }
+            ]
+        },
+        "Ayeyarwady": {
+            "id": "17",
+            "data": [
+                {
+                    "cityId": "323",
+                    "cityName": "Pathein"
+                },
+                {
+                    "cityId": "324",
+                    "cityName": "Kangyidaunt"
+                },
+                {
+                    "cityId": "325",
+                    "cityName": "Thabaung"
+                },
+                {
+                    "cityId": "326",
+                    "cityName": "Ngapudaw"
+                },
+                {
+                    "cityId": "327",
+                    "cityName": "Kyonpyaw"
+                },
+                {
+                    "cityId": "328",
+                    "cityName": "Yegyi"
+                },
+                {
+                    "cityId": "329",
+                    "cityName": "Kyaunggon"
+                },
+                {
+                    "cityId": "330",
+                    "cityName": "Hinthada"
+                },
+                {
+                    "cityId": "331",
+                    "cityName": "Zalun"
+                },
+                {
+                    "cityId": "332",
+                    "cityName": "Lemyethna"
+                },
+                {
+                    "cityId": "333",
+                    "cityName": "Myanaung"
+                },
+                {
+                    "cityId": "334",
+                    "cityName": "Kyangin"
+                },
+                {
+                    "cityId": "335",
+                    "cityName": "Ingapu"
+                },
+                {
+                    "cityId": "336",
+                    "cityName": "Myaungmya"
+                },
+                {
+                    "cityId": "337",
+                    "cityName": "Einme"
+                },
+                {
+                    "cityId": "338",
+                    "cityName": "Labutta"
+                },
+                {
+                    "cityId": "339",
+                    "cityName": "Wakema"
+                },
+                {
+                    "cityId": "340",
+                    "cityName": "Mawlamyinegyun"
+                },
+                {
+                    "cityId": "341",
+                    "cityName": "Maubin"
+                },
+                {
+                    "cityId": "342",
+                    "cityName": "Pantanaw"
+                },
+                {
+                    "cityId": "343",
+                    "cityName": "Nyaungdon"
+                },
+                {
+                    "cityId": "344",
+                    "cityName": "Danubyu"
+                },
+                {
+                    "cityId": "345",
+                    "cityName": "Pyapon"
+                },
+                {
+                    "cityId": "346",
+                    "cityName": "Bogale"
+                },
+                {
+                    "cityId": "347",
+                    "cityName": "Kyaiklat"
+                },
+                {
+                    "cityId": "348",
+                    "cityName": "Dedaye"
+                }
+            ]
+        },
+        "Nay Pyi Taw": {
+            "id": "18",
+            "data": [
+                {
+                    "cityId": "349",
+                    "cityName": "Zay Yar Thi Ri"
+                },
+                {
+                    "cityId": "350",
+                    "cityName": "Za Bu Thi Ri"
+                },
+                {
+                    "cityId": "351",
+                    "cityName": "Tatkon"
+                },
+                {
+                    "cityId": "352",
+                    "cityName": "Det Khi Na Thi Ri "
+                },
+                {
+                    "cityId": "353",
+                    "cityName": "Poke Ba Thi Ri"
+                },
+                {
+                    "cityId": "354",
+                    "cityName": "Pyinmana"
+                },
+                {
+                    "cityId": "355",
+                    "cityName": "Lewe"
+                },
+                {
+                    "cityId": "356",
+                    "cityName": "Oke Ta Ra Thi Ri"
+                }
+            ]
+        }
+    },
+    "my": {
+        "ကချင်": {
+            "id": "1",
+            "data": [
+                {
+                    "cityId": "1",
+                    "cityName": "မြစ်ကြီးနား"
+                },
+                {
+                    "cityId": "2",
+                    "cityName": "ဝိုင်းမော်"
+                },
+                {
+                    "cityId": "3",
+                    "cityName": "အင်ဂျန်းယန်"
+                },
+                {
+                    "cityId": "4",
+                    "cityName": "တနိုင်း"
+                },
+                {
+                    "cityId": "5",
+                    "cityName": "ချီဗွေ"
+                },
+                {
+                    "cityId": "6",
+                    "cityName": "ဆော့လော်"
+                },
+                {
+                    "cityId": "7",
+                    "cityName": "မိုးညှင်း"
+                },
+                {
+                    "cityId": "8",
+                    "cityName": "မိုးကောင်း"
+                },
+                {
+                    "cityId": "9",
+                    "cityName": "ဖားကန့်"
+                },
+                {
+                    "cityId": "10",
+                    "cityName": "ဗန်းမော်"
+                },
+                {
+                    "cityId": "11",
+                    "cityName": "ရွှေကူ"
+                },
+                {
+                    "cityId": "12",
+                    "cityName": "မိုးမောက်"
+                },
+                {
+                    "cityId": "13",
+                    "cityName": "မန်စီ"
+                },
+                {
+                    "cityId": "14",
+                    "cityName": "ပူတာအို"
+                },
+                {
+                    "cityId": "15",
+                    "cityName": "ဆွမ်ပရာဘွမ်"
+                },
+                {
+                    "cityId": "16",
+                    "cityName": "မချမ်းဘော"
+                },
+                {
+                    "cityId": "17",
+                    "cityName": "နောင်မွန်း"
+                },
+                {
+                    "cityId": "18",
+                    "cityName": "ခေါင်လန်ဖူး"
+                }
+            ]
+        },
+        "ကယား": {
+            "id": "2",
+            "data": [
+                {
+                    "cityId": "19",
+                    "cityName": "လွိုင်ကော်"
+                },
+                {
+                    "cityId": "20",
+                    "cityName": "ဒီမောဆို"
+                },
+                {
+                    "cityId": "21",
+                    "cityName": "ဖရူဆို"
+                },
+                {
+                    "cityId": "22",
+                    "cityName": "ရှားတော"
+                },
+                {
+                    "cityId": "23",
+                    "cityName": "ဘောလခဲ"
+                },
+                {
+                    "cityId": "24",
+                    "cityName": "ဖားဆောင်း"
+                },
+                {
+                    "cityId": "25",
+                    "cityName": "မယ်စဲ့"
+                }
+            ]
+        },
+        "ကရင်": {
+            "id": "3",
+            "data": [
+                {
+                    "cityId": "26",
+                    "cityName": "ဘားအံ"
+                },
+                {
+                    "cityId": "27",
+                    "cityName": "လှိုင်းဘွဲ့"
+                },
+                {
+                    "cityId": "28",
+                    "cityName": "ဖာပွန်"
+                },
+                {
+                    "cityId": "29",
+                    "cityName": "သံတောင်ကြီး"
+                },
+                {
+                    "cityId": "30",
+                    "cityName": "မြဝတီ"
+                },
+                {
+                    "cityId": "31",
+                    "cityName": "ကော့ကရိတ်"
+                },
+                {
+                    "cityId": "32",
+                    "cityName": "ကြာအင်းဆိပ်ကြီး"
+                }
+            ]
+        },
+        "ချင်း": {
+            "id": "4",
+            "data": [
+                {
+                    "cityId": "33",
+                    "cityName": "ဖလမ်း"
+                },
+                {
+                    "cityId": "34",
+                    "cityName": "ဟားခါး"
+                },
+                {
+                    "cityId": "35",
+                    "cityName": "ထန်တလန်"
+                },
+                {
+                    "cityId": "36",
+                    "cityName": "တီးတိန်"
+                },
+                {
+                    "cityId": "37",
+                    "cityName": "တွန်းဇံ"
+                },
+                {
+                    "cityId": "38",
+                    "cityName": "မင်းတပ်"
+                },
+                {
+                    "cityId": "39",
+                    "cityName": "မတူပီ"
+                },
+                {
+                    "cityId": "40",
+                    "cityName": "ကန်ပက်လက်"
+                },
+                {
+                    "cityId": "41",
+                    "cityName": "ပလက်ဝ"
+                }
+            ]
+        },
+        "စစ်ကိုင်း": {
+            "id": "5",
+            "data": [
+                {
+                    "cityId": "42",
+                    "cityName": "စစ်ကိုင်း"
+                },
+                {
+                    "cityId": "43",
+                    "cityName": "မြင်းမူ"
+                },
+                {
+                    "cityId": "44",
+                    "cityName": "မြောင်"
+                },
+                {
+                    "cityId": "45",
+                    "cityName": "ရွှေဘို"
+                },
+                {
+                    "cityId": "46",
+                    "cityName": "ခင်ဦး"
+                },
+                {
+                    "cityId": "47",
+                    "cityName": "ဝက်လက်"
+                },
+                {
+                    "cityId": "48",
+                    "cityName": "ကန့်ဘလူ"
+                },
+                {
+                    "cityId": "49",
+                    "cityName": "ကျွန်းလှ"
+                },
+                {
+                    "cityId": "50",
+                    "cityName": "ရေဦး"
+                },
+                {
+                    "cityId": "51",
+                    "cityName": "ဒီပဲယင်း"
+                },
+                {
+                    "cityId": "52",
+                    "cityName": "တန့်ဆည်"
+                },
+                {
+                    "cityId": "53",
+                    "cityName": "မုံရွာ"
+                },
+                {
+                    "cityId": "54",
+                    "cityName": "ဘုတလင်"
+                },
+                {
+                    "cityId": "55",
+                    "cityName": "အရာတော်"
+                },
+                {
+                    "cityId": "56",
+                    "cityName": "ချောင်းဦး"
+                },
+                {
+                    "cityId": "57",
+                    "cityName": "ယင်းမာပင်"
+                },
+                {
+                    "cityId": "58",
+                    "cityName": "ကနီ"
+                },
+                {
+                    "cityId": "59",
+                    "cityName": "ဆားလင်းကြီး"
+                },
+                {
+                    "cityId": "60",
+                    "cityName": "ပုလဲ"
+                },
+                {
+                    "cityId": "61",
+                    "cityName": "ကသာ"
+                },
+                {
+                    "cityId": "62",
+                    "cityName": "အင်းတော်"
+                },
+                {
+                    "cityId": "63",
+                    "cityName": "ထီးချိုင့်"
+                },
+                {
+                    "cityId": "64",
+                    "cityName": "ဗန်းမောက်"
+                },
+                {
+                    "cityId": "65",
+                    "cityName": "ကောလင်း"
+                },
+                {
+                    "cityId": "66",
+                    "cityName": "ဝန်းသို"
+                },
+                {
+                    "cityId": "67",
+                    "cityName": "ပင်လည်ဘူး"
+                },
+                {
+                    "cityId": "68",
+                    "cityName": "ကလေး"
+                },
+                {
+                    "cityId": "69",
+                    "cityName": "ကလေးဝ"
+                },
+                {
+                    "cityId": "70",
+                    "cityName": "မင်းကင်း"
+                },
+                {
+                    "cityId": "71",
+                    "cityName": "တမူး"
+                },
+                {
+                    "cityId": "72",
+                    "cityName": "မော်လိုက်"
+                },
+                {
+                    "cityId": "73",
+                    "cityName": "ဖေါင်းပြင်"
+                },
+                {
+                    "cityId": "74",
+                    "cityName": "ခန္တီး"
+                },
+                {
+                    "cityId": "75",
+                    "cityName": "ဟုမ္မလင်း"
+                },
+                {
+                    "cityId": "76",
+                    "cityName": "လေရှီး"
+                },
+                {
+                    "cityId": "77",
+                    "cityName": "လဟယ်"
+                },
+                {
+                    "cityId": "78",
+                    "cityName": "နန်းယွန်း"
+                }
+            ]
+        },
+        "တနင်္သာရီ": {
+            "id": "6",
+            "data": [
+                {
+                    "cityId": "79",
+                    "cityName": "ထားဝယ်"
+                },
+                {
+                    "cityId": "80",
+                    "cityName": "လောင်းလုံ"
+                },
+                {
+                    "cityId": "81",
+                    "cityName": "သရက်ချောင်း"
+                },
+                {
+                    "cityId": "82",
+                    "cityName": "ရေဖြူ"
+                },
+                {
+                    "cityId": "83",
+                    "cityName": "မြိတ်"
+                },
+                {
+                    "cityId": "84",
+                    "cityName": "ကျွန်းစု"
+                },
+                {
+                    "cityId": "85",
+                    "cityName": "ပုလော"
+                },
+                {
+                    "cityId": "86",
+                    "cityName": "တနင်္သာရီ"
+                },
+                {
+                    "cityId": "87",
+                    "cityName": "ကော့သောင်း"
+                },
+                {
+                    "cityId": "88",
+                    "cityName": "ဘုတ်ပြင်း"
+                }
+            ]
+        },
+        "ပဲခူး (အရှေ့)": {
+            "id": "7",
+            "data": [
+                {
+                    "cityId": "89",
+                    "cityName": "ပဲခူး"
+                },
+                {
+                    "cityId": "90",
+                    "cityName": "သနပ်ပင်"
+                },
+                {
+                    "cityId": "91",
+                    "cityName": "ကဝ"
+                },
+                {
+                    "cityId": "92",
+                    "cityName": "ဝေါ"
+                },
+                {
+                    "cityId": "93",
+                    "cityName": "ညောင်လေးပင်"
+                },
+                {
+                    "cityId": "94",
+                    "cityName": "ကျောက်တံခါး"
+                },
+                {
+                    "cityId": "95",
+                    "cityName": "ဒိုက်ဦး"
+                },
+                {
+                    "cityId": "96",
+                    "cityName": "ရွှေကျင်"
+                },
+                {
+                    "cityId": "97",
+                    "cityName": "တောင်ငူ"
+                },
+                {
+                    "cityId": "98",
+                    "cityName": "ရေတာရှည်"
+                },
+                {
+                    "cityId": "99",
+                    "cityName": "ကျောက်ကြီး"
+                },
+                {
+                    "cityId": "100",
+                    "cityName": "ဖြူး"
+                },
+                {
+                    "cityId": "101",
+                    "cityName": "အုတ်တွင်း"
+                },
+                {
+                    "cityId": "102",
+                    "cityName": "ထန်းတပင်"
+                }
+            ]
+        },
+        "ပဲခူး (အနောက်)": {
+            "id": "8",
+            "data": [
+                {
+                    "cityId": "103",
+                    "cityName": "ပြည်"
+                },
+                {
+                    "cityId": "104",
+                    "cityName": "ပေါက်ခေါင်း"
+                },
+                {
+                    "cityId": "105",
+                    "cityName": "ပန်းတောင်း"
+                },
+                {
+                    "cityId": "106",
+                    "cityName": "ပေါင်းတည်"
+                },
+                {
+                    "cityId": "107",
+                    "cityName": "သဲကုန်း"
+                },
+                {
+                    "cityId": "108",
+                    "cityName": "ရွှေတောင်"
+                },
+                {
+                    "cityId": "109",
+                    "cityName": "သာယာဝတီ"
+                },
+                {
+                    "cityId": "110",
+                    "cityName": "လက်ပံတန်း"
+                },
+                {
+                    "cityId": "111",
+                    "cityName": "မင်းလှ"
+                },
+                {
+                    "cityId": "112",
+                    "cityName": "အုတ်ဖို"
+                },
+                {
+                    "cityId": "113",
+                    "cityName": "ဇီးကုန်း"
+                },
+                {
+                    "cityId": "114",
+                    "cityName": "နတ္တလင်း"
+                },
+                {
+                    "cityId": "115",
+                    "cityName": "မိုးညို"
+                },
+                {
+                    "cityId": "116",
+                    "cityName": "ကြို့ပင်ကောက်"
+                }
+            ]
+        },
+        "မကွေး": {
+            "id": "9",
+            "data": [
+                {
+                    "cityId": "117",
+                    "cityName": "မကွေး"
+                },
+                {
+                    "cityId": "118",
+                    "cityName": "ရေနံချောင်း"
+                },
+                {
+                    "cityId": "119",
+                    "cityName": "ချောက်"
+                },
+                {
+                    "cityId": "120",
+                    "cityName": "တောင်တွင်းကြီး"
+                },
+                {
+                    "cityId": "121",
+                    "cityName": "မြို့သစ်"
+                },
+                {
+                    "cityId": "122",
+                    "cityName": "နတ်မောက်"
+                },
+                {
+                    "cityId": "123",
+                    "cityName": "မင်းဘူး"
+                },
+                {
+                    "cityId": "124",
+                    "cityName": "ပွင့်ဖြူ"
+                },
+                {
+                    "cityId": "125",
+                    "cityName": "ငဖဲ"
+                },
+                {
+                    "cityId": "126",
+                    "cityName": "စလင်း"
+                },
+                {
+                    "cityId": "127",
+                    "cityName": "စေတုတ္တရာ"
+                },
+                {
+                    "cityId": "128",
+                    "cityName": "သရက်"
+                },
+                {
+                    "cityId": "129",
+                    "cityName": "မင်းလှ"
+                },
+                {
+                    "cityId": "130",
+                    "cityName": "မင်းတုန်း"
+                },
+                {
+                    "cityId": "131",
+                    "cityName": "ကံမ"
+                },
+                {
+                    "cityId": "132",
+                    "cityName": "အောင်လံ"
+                },
+                {
+                    "cityId": "133",
+                    "cityName": "ဆင်ပေါင်ဝဲ"
+                },
+                {
+                    "cityId": "134",
+                    "cityName": "ပခုက္ကူ"
+                },
+                {
+                    "cityId": "135",
+                    "cityName": "ရေစကြို"
+                },
+                {
+                    "cityId": "136",
+                    "cityName": "မြိုင်"
+                },
+                {
+                    "cityId": "137",
+                    "cityName": "ပေါက်"
+                },
+                {
+                    "cityId": "138",
+                    "cityName": "ဆိပ်ဖြူ"
+                },
+                {
+                    "cityId": "139",
+                    "cityName": "ဂန့်ဂေါ"
+                },
+                {
+                    "cityId": "140",
+                    "cityName": "ထီးလင်း"
+                },
+                {
+                    "cityId": "141",
+                    "cityName": "ဆော"
+                }
+            ]
+        },
+        "မန္တလေး": {
+            "id": "10",
+            "data": [
+                {
+                    "cityId": "142",
+                    "cityName": "အောင်မြေသာဇံ"
+                },
+                {
+                    "cityId": "143",
+                    "cityName": "ချမ်းအေးသာဇံ"
+                },
+                {
+                    "cityId": "144",
+                    "cityName": "မဟာအောင်မြေ"
+                },
+                {
+                    "cityId": "145",
+                    "cityName": "ချမ်းမြသာစည်"
+                },
+                {
+                    "cityId": "146",
+                    "cityName": "ပြည်ကြီးတံခွန်"
+                },
+                {
+                    "cityId": "147",
+                    "cityName": "အမရပူရ"
+                },
+                {
+                    "cityId": "148",
+                    "cityName": "ပုသိမ်ကြီး"
+                },
+                {
+                    "cityId": "149",
+                    "cityName": "ပြင်ဦးလွင်"
+                },
+                {
+                    "cityId": "150",
+                    "cityName": "မတ္တရာ"
+                },
+                {
+                    "cityId": "151",
+                    "cityName": "စဉ့်ကူး"
+                },
+                {
+                    "cityId": "152",
+                    "cityName": "မိုးကုတ်"
+                },
+                {
+                    "cityId": "153",
+                    "cityName": "သပိတ်ကျဉ်း"
+                },
+                {
+                    "cityId": "154",
+                    "cityName": "ကျောက်ဆည်"
+                },
+                {
+                    "cityId": "155",
+                    "cityName": "စဉ့်ကိုင်"
+                },
+                {
+                    "cityId": "156",
+                    "cityName": "မြစ်သား"
+                },
+                {
+                    "cityId": "157",
+                    "cityName": "တံတားဦး"
+                },
+                {
+                    "cityId": "158",
+                    "cityName": "မြင်းခြံ"
+                },
+                {
+                    "cityId": "159",
+                    "cityName": "တောင်သာ"
+                },
+                {
+                    "cityId": "160",
+                    "cityName": "နွားထိုးကြီး"
+                },
+                {
+                    "cityId": "161",
+                    "cityName": "ကျောက်ပန်းတောင်း"
+                },
+                {
+                    "cityId": "162",
+                    "cityName": "ငါန်းဇွန်"
+                },
+                {
+                    "cityId": "163",
+                    "cityName": "ညောင်ဦး"
+                },
+                {
+                    "cityId": "164",
+                    "cityName": "ရမည်းသင်း"
+                },
+                {
+                    "cityId": "165",
+                    "cityName": "ပျော်ဘွယ်"
+                },
+                {
+                    "cityId": "166",
+                    "cityName": "မိတ္ထီလာ"
+                },
+                {
+                    "cityId": "167",
+                    "cityName": "မလှိုင်"
+                },
+                {
+                    "cityId": "168",
+                    "cityName": "သာစည်"
+                },
+                {
+                    "cityId": "169",
+                    "cityName": "ဝမ်းတွင်း"
+                }
+            ]
+        },
+        "မွန်": {
+            "id": "11",
+            "data": [
+                {
+                    "cityId": "170",
+                    "cityName": "မော်လမြိုင်"
+                },
+                {
+                    "cityId": "171",
+                    "cityName": "ကျိုက္မရော"
+                },
+                {
+                    "cityId": "172",
+                    "cityName": "ချောင်းဆုံ"
+                },
+                {
+                    "cityId": "173",
+                    "cityName": "သံဖြူဇရပ်"
+                },
+                {
+                    "cityId": "174",
+                    "cityName": "မုဒုံ"
+                },
+                {
+                    "cityId": "175",
+                    "cityName": "ရေး"
+                },
+                {
+                    "cityId": "176",
+                    "cityName": "သထုံ"
+                },
+                {
+                    "cityId": "177",
+                    "cityName": "ပေါင်"
+                },
+                {
+                    "cityId": "178",
+                    "cityName": "ကျိုက်ထို"
+                },
+                {
+                    "cityId": "179",
+                    "cityName": "ဘီးလင်း"
+                }
+            ]
+        },
+        "ရခိုင်": {
+            "id": "12",
+            "data": [
+                {
+                    "cityId": "180",
+                    "cityName": "စစ်တွေ"
+                },
+                {
+                    "cityId": "181",
+                    "cityName": "ပုဏ္ဏားကျွန်း"
+                },
+                {
+                    "cityId": "182",
+                    "cityName": "မြောက်ဦး"
+                },
+                {
+                    "cityId": "183",
+                    "cityName": "ကျောက်တော်"
+                },
+                {
+                    "cityId": "184",
+                    "cityName": "မင်းပြား"
+                },
+                {
+                    "cityId": "185",
+                    "cityName": "မြေပုံ"
+                },
+                {
+                    "cityId": "186",
+                    "cityName": "ပေါက်တော"
+                },
+                {
+                    "cityId": "187",
+                    "cityName": "ရသေ့တောင်"
+                },
+                {
+                    "cityId": "188",
+                    "cityName": "မောင်တော"
+                },
+                {
+                    "cityId": "189",
+                    "cityName": "ဘူးသီးတောင်"
+                },
+                {
+                    "cityId": "190",
+                    "cityName": "ကျောက်ဖြူ"
+                },
+                {
+                    "cityId": "191",
+                    "cityName": "မာန်အောင်"
+                },
+                {
+                    "cityId": "192",
+                    "cityName": "ရမ်းဗြဲ"
+                },
+                {
+                    "cityId": "193",
+                    "cityName": "အမ်း"
+                },
+                {
+                    "cityId": "194",
+                    "cityName": "သံတွဲ"
+                },
+                {
+                    "cityId": "195",
+                    "cityName": "တောင်ကုတ်"
+                },
+                {
+                    "cityId": "196",
+                    "cityName": "ဂွ"
+                }
+            ]
+        },
+        "ရန်ကုန်": {
+            "id": "13",
+            "data": [
+                {
+                    "cityId": "197",
+                    "cityName": "အင်းစိန်"
+                },
+                {
+                    "cityId": "198",
+                    "cityName": "မင်္ဂလာဒုံ"
+                },
+                {
+                    "cityId": "199",
+                    "cityName": "မှော်ဘီ"
+                },
+                {
+                    "cityId": "200",
+                    "cityName": "လှည်းကူး"
+                },
+                {
+                    "cityId": "201",
+                    "cityName": "တိုက်ကြီး"
+                },
+                {
+                    "cityId": "202",
+                    "cityName": "ထန်းတပင်"
+                },
+                {
+                    "cityId": "203",
+                    "cityName": "ရွှေပြည်သာ"
+                },
+                {
+                    "cityId": "204",
+                    "cityName": "လှိုင်သာယာ"
+                },
+                {
+                    "cityId": "205",
+                    "cityName": "သင်္ဃန်းကျွန်း"
+                },
+                {
+                    "cityId": "206",
+                    "cityName": "ရန်ကင်း"
+                },
+                {
+                    "cityId": "207",
+                    "cityName": "တောင်ဥက္ကလာပ"
+                },
+                {
+                    "cityId": "208",
+                    "cityName": "မြောက်ဥက္ကလာပ"
+                },
+                {
+                    "cityId": "209",
+                    "cityName": "သာကေတ"
+                },
+                {
+                    "cityId": "210",
+                    "cityName": "ဒေါပုံ"
+                },
+                {
+                    "cityId": "211",
+                    "cityName": "တာမွေ"
+                },
+                {
+                    "cityId": "212",
+                    "cityName": "ပုဇွန်တောင်"
+                },
+                {
+                    "cityId": "213",
+                    "cityName": "ဗိုလ်တထောင်"
+                },
+                {
+                    "cityId": "214",
+                    "cityName": "ဒဂုံမြို့သစ်တောင်ပိုင်း"
+                },
+                {
+                    "cityId": "215",
+                    "cityName": "ဒဂုံမြို့သစ်မြောက်ပိုင်း"
+                },
+                {
+                    "cityId": "216",
+                    "cityName": "ဒဂုံမြို့သစ်အရှေ့ပိုင်း"
+                },
+                {
+                    "cityId": "217",
+                    "cityName": "ဒဂုံမြို့သစ်ဆိပ်ကမ်း"
+                },
+                {
+                    "cityId": "218",
+                    "cityName": "မင်္ဂလာတောင်ညွန့်"
+                },
+                {
+                    "cityId": "219",
+                    "cityName": "သန်လျှင်"
+                },
+                {
+                    "cityId": "220",
+                    "cityName": "ကျောက်တန်း"
+                },
+                {
+                    "cityId": "221",
+                    "cityName": "သုံးခွ"
+                },
+                {
+                    "cityId": "222",
+                    "cityName": "ခရမ်း"
+                },
+                {
+                    "cityId": "223",
+                    "cityName": "တွံတေး"
+                },
+                {
+                    "cityId": "224",
+                    "cityName": "ကော့မှုး"
+                },
+                {
+                    "cityId": "225",
+                    "cityName": "ကွမ်းခြံကုန်း"
+                },
+                {
+                    "cityId": "226",
+                    "cityName": "ဒလ"
+                },
+                {
+                    "cityId": "227",
+                    "cityName": "ဆိပ်ကြီးခနောင်တို"
+                },
+                {
+                    "cityId": "228",
+                    "cityName": "ကိုကိုးကျွန်း"
+                },
+                {
+                    "cityId": "229",
+                    "cityName": "ကျောက်တံတား"
+                },
+                {
+                    "cityId": "230",
+                    "cityName": "ပန်းပဲတန်း"
+                },
+                {
+                    "cityId": "231",
+                    "cityName": "လမ်းမတော်"
+                },
+                {
+                    "cityId": "232",
+                    "cityName": "လသာ"
+                },
+                {
+                    "cityId": "233",
+                    "cityName": "အလုံ"
+                },
+                {
+                    "cityId": "234",
+                    "cityName": "ကြည့်မြင်တိုင်"
+                },
+                {
+                    "cityId": "235",
+                    "cityName": "စမ်းချောင်း"
+                },
+                {
+                    "cityId": "236",
+                    "cityName": "လှိုင်"
+                },
+                {
+                    "cityId": "237",
+                    "cityName": "ကမာရွတ်"
+                },
+                {
+                    "cityId": "238",
+                    "cityName": "မရမ်းကုန်း"
+                },
+                {
+                    "cityId": "239",
+                    "cityName": "ဒဂုံ"
+                },
+                {
+                    "cityId": "240",
+                    "cityName": "ဗဟန်း"
+                },
+                {
+                    "cityId": "241",
+                    "cityName": "ဆိပ်ကမ်း"
+                }
+            ]
+        },
+        "ရှမ်း (တောင်)": {
+            "id": "14",
+            "data": [
+                {
+                    "cityId": "242",
+                    "cityName": "တောင်ကြီး"
+                },
+                {
+                    "cityId": "243",
+                    "cityName": "ညောင်ရွှေ"
+                },
+                {
+                    "cityId": "244",
+                    "cityName": "ဟိုပုံး"
+                },
+                {
+                    "cityId": "245",
+                    "cityName": "ဆီဆိုင်"
+                },
+                {
+                    "cityId": "246",
+                    "cityName": "ကလော"
+                },
+                {
+                    "cityId": "247",
+                    "cityName": "ပင်းတယ"
+                },
+                {
+                    "cityId": "248",
+                    "cityName": "ရွာငံ"
+                },
+                {
+                    "cityId": "249",
+                    "cityName": "ရပ်စောက်"
+                },
+                {
+                    "cityId": "250",
+                    "cityName": "ပင်လောင်း"
+                },
+                {
+                    "cityId": "251",
+                    "cityName": "ဖယ်ခုံ"
+                },
+                {
+                    "cityId": "252",
+                    "cityName": "လွိုင်လင်"
+                },
+                {
+                    "cityId": "253",
+                    "cityName": "လဲချား"
+                },
+                {
+                    "cityId": "254",
+                    "cityName": "နမ့်စန်"
+                },
+                {
+                    "cityId": "255",
+                    "cityName": "ကွန်ဟိန်း"
+                },
+                {
+                    "cityId": "256",
+                    "cityName": "ကျေးသီး"
+                },
+                {
+                    "cityId": "257",
+                    "cityName": "မိုင်းကိုင်"
+                },
+                {
+                    "cityId": "258",
+                    "cityName": "မိုင်းရှုး"
+                },
+                {
+                    "cityId": "259",
+                    "cityName": "လင်းခေး"
+                },
+                {
+                    "cityId": "260",
+                    "cityName": "မိုးနဲ"
+                },
+                {
+                    "cityId": "261",
+                    "cityName": "မောက်မယ်"
+                },
+                {
+                    "cityId": "262",
+                    "cityName": "မိုင်းပန်"
+                }
+            ]
+        },
+        "ရှမ်း (မြောက်)": {
+            "id": "15",
+            "data": [
+                {
+                    "cityId": "263",
+                    "cityName": "လားရှိုး"
+                },
+                {
+                    "cityId": "264",
+                    "cityName": "သိန်းနီ"
+                },
+                {
+                    "cityId": "265",
+                    "cityName": "မိုင်းရယ်"
+                },
+                {
+                    "cityId": "266",
+                    "cityName": "တန့်ယန်း"
+                },
+                {
+                    "cityId": "267",
+                    "cityName": "ပန်ဆန်း"
+                },
+                {
+                    "cityId": "268",
+                    "cityName": "နားဖန့်"
+                },
+                {
+                    "cityId": "269",
+                    "cityName": "ပန်ဝိုင်း"
+                },
+                {
+                    "cityId": "270",
+                    "cityName": "မိုင်းမော"
+                },
+                {
+                    "cityId": "271",
+                    "cityName": "မူဆယ်"
+                },
+                {
+                    "cityId": "272",
+                    "cityName": "နမ့်ခမ်း"
+                },
+                {
+                    "cityId": "273",
+                    "cityName": "ကွတ်ခိုင်"
+                },
+                {
+                    "cityId": "274",
+                    "cityName": "ကျောက်မဲ"
+                },
+                {
+                    "cityId": "275",
+                    "cityName": "နောင်ချို"
+                },
+                {
+                    "cityId": "276",
+                    "cityName": "သီပေါ"
+                },
+                {
+                    "cityId": "277",
+                    "cityName": "နမ္မတူ"
+                },
+                {
+                    "cityId": "278",
+                    "cityName": "နမ့်ဆန်"
+                },
+                {
+                    "cityId": "279",
+                    "cityName": "မိုးမိတ်"
+                },
+                {
+                    "cityId": "280",
+                    "cityName": "မဘိမ်း"
+                },
+                {
+                    "cityId": "281",
+                    "cityName": "မန်တုန်"
+                },
+                {
+                    "cityId": "282",
+                    "cityName": "ကွမ်းလုံ"
+                },
+                {
+                    "cityId": "283",
+                    "cityName": "ဟိုပန်"
+                },
+                {
+                    "cityId": "284",
+                    "cityName": "လောက်ကိုင်"
+                },
+                {
+                    "cityId": "285",
+                    "cityName": "ကုန်းကြမ်း"
+                },
+                {
+                    "cityId": "286",
+                    "cityName": "မက်မန်း"
+                },
+                {
+                    "cityId": "287",
+                    "cityName": "အိုက်ချန်"
+                },
+                {
+                    "cityId": "288",
+                    "cityName": "ကုန်းကြမ်း (အထူးဒေသ ၁)"
+                },
+                {
+                    "cityId": "289",
+                    "cityName": "လောက်ကိုင် (အထူးဒေသ ၁)"
+                },
+                {
+                    "cityId": "290",
+                    "cityName": "ချင်းရွှေဟော်မြို့နယ်ခွဲ (အထူးဒေသ ၁)"
+                },
+                {
+                    "cityId": "291",
+                    "cityName": "နမ့် တစ်"
+                },
+                {
+                    "cityId": "292",
+                    "cityName": "နာဝီး"
+                },
+                {
+                    "cityId": "293",
+                    "cityName": "မန်တွန်း"
+                },
+                {
+                    "cityId": "294",
+                    "cityName": "ကောင်မင်ဆန်း"
+                },
+                {
+                    "cityId": "295",
+                    "cityName": "ဆောင်ဖ"
+                },
+                {
+                    "cityId": "296",
+                    "cityName": "ခွန်းမား"
+                },
+                {
+                    "cityId": "297",
+                    "cityName": "လုံထန်"
+                },
+                {
+                    "cityId": "298",
+                    "cityName": "ယောင်လင်း"
+                },
+                {
+                    "cityId": "299",
+                    "cityName": "လင်ဟော်"
+                },
+                {
+                    "cityId": "300",
+                    "cityName": "ကလောင်ဖါ"
+                },
+                {
+                    "cityId": "301",
+                    "cityName": "ရင်ဖန့်"
+                },
+                {
+                    "cityId": "302",
+                    "cityName": "မန်မန်ဆိုင်"
+                },
+                {
+                    "cityId": "303",
+                    "cityName": "နောင်ခစ်"
+                },
+                {
+                    "cityId": "304",
+                    "cityName": "နမ်ခမ်းဝူး"
+                },
+                {
+                    "cityId": "305",
+                    "cityName": "နားကောင်"
+                },
+                {
+                    "cityId": "306",
+                    "cityName": "ပန်ခမ့်"
+                },
+                {
+                    "cityId": "307",
+                    "cityName": "ပန်ယန်း"
+                }
+            ]
+        },
+        "ရှမ်း (အရှေ့)": {
+            "id": "16",
+            "data": [
+                {
+                    "cityId": "308",
+                    "cityName": "ကျိုင်းတုံ"
+                },
+                {
+                    "cityId": "309",
+                    "cityName": "မိုင်းခတ်"
+                },
+                {
+                    "cityId": "310",
+                    "cityName": "မိုင်းယန်း"
+                },
+                {
+                    "cityId": "311",
+                    "cityName": "မိုင်းလား"
+                },
+                {
+                    "cityId": "312",
+                    "cityName": "မိုင်းဆတ်"
+                },
+                {
+                    "cityId": "313",
+                    "cityName": "မိုင်းပျင်း"
+                },
+                {
+                    "cityId": "314",
+                    "cityName": "မိုင်းတုံ"
+                },
+                {
+                    "cityId": "315",
+                    "cityName": "တာချီလိတ်"
+                },
+                {
+                    "cityId": "316",
+                    "cityName": "မိုင်းဖြတ်"
+                },
+                {
+                    "cityId": "317",
+                    "cityName": "မိုင်းယောင်း"
+                },
+                {
+                    "cityId": "318",
+                    "cityName": "မိုင်းဖျန်"
+                },
+                {
+                    "cityId": "319",
+                    "cityName": "ဟိုတောင်း"
+                },
+                {
+                    "cityId": "320",
+                    "cityName": "မိုင်းပေါက်"
+                },
+                {
+                    "cityId": "321",
+                    "cityName": "မိုင်းကာ"
+                },
+                {
+                    "cityId": "322",
+                    "cityName": "နမ့်ဖိုင်"
+                }
+            ]
+        },
+        "ဧရာ၀တီ": {
+            "id": "17",
+            "data": [
+                {
+                    "cityId": "323",
+                    "cityName": "ပုသိမ်"
+                },
+                {
+                    "cityId": "324",
+                    "cityName": "ကန်ကြီးထောင့်"
+                },
+                {
+                    "cityId": "325",
+                    "cityName": "သာပေါင်း"
+                },
+                {
+                    "cityId": "326",
+                    "cityName": "ငပုတော"
+                },
+                {
+                    "cityId": "327",
+                    "cityName": "ကျုံပျော်"
+                },
+                {
+                    "cityId": "328",
+                    "cityName": "ရေကြည်"
+                },
+                {
+                    "cityId": "329",
+                    "cityName": "ကျောင်းကုန်း"
+                },
+                {
+                    "cityId": "330",
+                    "cityName": "ဟင်္သာတ"
+                },
+                {
+                    "cityId": "331",
+                    "cityName": "ဇလွန်"
+                },
+                {
+                    "cityId": "332",
+                    "cityName": "လေးမျက်နှာ"
+                },
+                {
+                    "cityId": "333",
+                    "cityName": "မြန်အောင်"
+                },
+                {
+                    "cityId": "334",
+                    "cityName": "ကြံခင်း"
+                },
+                {
+                    "cityId": "335",
+                    "cityName": "အင်္ဂပူ"
+                },
+                {
+                    "cityId": "336",
+                    "cityName": "မြောင်းမြ"
+                },
+                {
+                    "cityId": "337",
+                    "cityName": "အိမ္မဲ"
+                },
+                {
+                    "cityId": "338",
+                    "cityName": "လပွတ္တာ"
+                },
+                {
+                    "cityId": "339",
+                    "cityName": "ဝါးခယ်မ"
+                },
+                {
+                    "cityId": "340",
+                    "cityName": "မော်လမြိုင်ကျွန်း"
+                },
+                {
+                    "cityId": "341",
+                    "cityName": "မအူပင်"
+                },
+                {
+                    "cityId": "342",
+                    "cityName": "ပန်းတနော်"
+                },
+                {
+                    "cityId": "343",
+                    "cityName": "ညောင်တုန်း"
+                },
+                {
+                    "cityId": "344",
+                    "cityName": "ဓနုဖြူ"
+                },
+                {
+                    "cityId": "345",
+                    "cityName": "ဖျာပုံ"
+                },
+                {
+                    "cityId": "346",
+                    "cityName": "ဘိုကလေး"
+                },
+                {
+                    "cityId": "347",
+                    "cityName": "ကျိုက်လတ်"
+                },
+                {
+                    "cityId": "348",
+                    "cityName": "ဒေးဒရဲ"
+                }
+            ]
+        },
+        "နေပြည်တော်": {
+            "id": "18",
+            "data": [
+                {
+                    "cityId": "349",
+                    "cityName": "ဇေယျာသီရိ"
+                },
+                {
+                    "cityId": "350",
+                    "cityName": "ဇမ္ဗူသီရိ"
+                },
+                {
+                    "cityId": "351",
+                    "cityName": "တပ်ကုန်း"
+                },
+                {
+                    "cityId": "352",
+                    "cityName": "ဒက္ခိဏသီရိ"
+                },
+                {
+                    "cityId": "353",
+                    "cityName": "ပုဗ္ဗသီရိ"
+                },
+                {
+                    "cityId": "354",
+                    "cityName": "ပျဉ်းမနား"
+                },
+                {
+                    "cityId": "355",
+                    "cityName": "လယ်ဝေး"
+                },
+                {
+                    "cityId": "356",
+                    "cityName": "ဥတ္တရသီရိ"
+                }
+            ]
+        }
+    }
+}

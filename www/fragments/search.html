@@ -1,0 +1,231 @@
+<div class="page" data-page="search">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="open-panel link icon-only" data-panel="left"><i class="icon icon-bars"></i></a>
+            </div>
+            <div class="center"><span data-i18n="search.name">Search</span></div>
+            <div class="right">
+                <!--<a href="#" class="link icon-only trigger-sacn"><i class="icon icon-back"></i></a>-->
+                <a href="#" data-popover=".popover-links" class="link open-popover"><i class="fa fa-language" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="toolbar tabbar theme-gray">
+        <div class="toolbar-inner">
+            <a href="#tab1" class="active tab-link"><span data-i18n="search.profileSearch">Profile Search</span></a>
+            <a href="#tab2" class="tab-link"><span data-i18n="search.QRSacn">QR Scan</span></a>
+            <a href="#tab3" class="tab-link"><span data-i18n="search.uicSearch">UIC Search</span></a>
+        </div>
+    </div>
+    <div class="tabs-animated-wrap1 tabs-swipeable-wrap">
+        <a href="#" class="floating-button trigger-home-page color-indigo"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        <div class="tabs">
+            
+            <div id="tab1" class="page-content tab active">
+                <div class="list-block search-patient" style="margin-top: 60px;">
+                   <ul>
+                      <li class="accordion-item accordion-item-expanded">
+                         <a class="item-content item-link" href="#">
+                            <div class="item-inner">
+                               <div class="item-title" data-i18n="search.name">Search</div>
+                            </div>
+                         </a>
+                         <div class="accordion-item-content">
+                            <div class="content-block">
+                                <div class="list-block inputs-list">
+                                    <ul>
+                                        <form id="frmSearch" name="frmSearch" >
+                                            
+                                            <li>
+                                                <div class="item-content">
+<!--                                                    <div class="item-media"><i class="fa fa-male fa-2x" aria-hidden="true"></i></div>-->
+                                                    <div class="item-inner">
+                                                        <div class="item-title label" data-i18n="register.fathersInitials">Initials of father's last name</div>
+                                                        <div class="item-input">
+                                                            <input type="text" name="fathername" id="fname" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-content">
+<!--                                                    <div class="item-media"><i class="fa fa-female fa-2x" aria-hidden="true"></i></div>-->
+                                                    <div class="item-inner">
+                                                        <div class="item-title label" data-i18n="register.mothersInitials">Initials of mother's last name</div>
+                                                        <div class="item-input">
+                                                            <input type="text" name="mothername" id="mname" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="item-content">
+                        <!--                            <div class="item-media" style="padding-bottom: 35px;"><i class="fa fa-users fa-2x" style="font-size: 25px;"></i></div>-->
+                                                    <div class="item-inner">
+                                                        <div class="item-title label"><span data-i18n="register.gender">Gender</span></div>
+                                                        <div class="item-input">
+                                                            <div class="row">
+                                                                <div class="col-33">
+                                                                    <span class="floating-button-custom bg-gray"><i class="fa fa-male" for="gender-male"></i></span>
+                                                                    <label class="label-radio label-radio-keypop item-content top-12 no-ripple" style="padding-left: 16px !important;">
+                                                                        <input type="radio" name="gender" value="01">
+                                                                        <div class="item-media"><i class="icon icon-form-radio"></i></div>
+                                                                        <div class="item-inner">
+                                                                            <div class="item-title"></div>
+                                                                        </div>
+                                                                    </label>
+                                                                </div>
+
+                                                                <div class="col-33">
+                                                                    <span class="floating-button-custom bg-gray"><i class="fa fa-female" for="gender-female"></i></span>
+                                                                    <label class="label-radio label-radio-keypop item-content top-12 no-ripple" style="padding-left: 16px !important;">
+                                                                        <input type="radio" name="gender" value="02">
+                                                                        <div class="item-media"><i class="icon icon-form-radio"></i></div>
+                                                                        <div class="item-inner">
+                                                                            <div class="item-title"></div>
+                                                                        </div>
+                                                                    </label>
+                                                                </div>
+
+
+                                                                <div class="col-33">
+                                                                    <span class="floating-button-custom bg-gray"><img style="width:40px" src="images/transgender.svg"/></span>
+                                                                    <label class="label-radio label-radio-keypop item-content top-12 no-ripple" style="padding-left: 16px !important;">
+                                                                        <input type="radio" name="gender" value="03">
+                                                                        <div class="item-media"><i class="icon icon-form-radio"></i></div>
+                                                                        <div class="item-inner">
+                                                                            <div class="item-title"></div>
+                                                                        </div>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-content">
+<!--                                                    <div class="item-media"><i class="fa fa-child fa-2x" aria-hidden="true"></i></div>-->
+                                                    <div class="item-inner">
+                                                        <div class="item-title label" data-i18n="register.nickName">Nick Name</div>
+                                                        <div class="item-input">
+                                                            <input type="text" name="nickname" id="nickname" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-content">
+<!--                                                    <div class="item-media"><i class="fa fa-calendar fa-2x" aria-hidden="true" style="font-size: 25px;"></i></div>-->
+                                                    <div class="item-inner">
+                                                        <div class="item-title label" data-i18n="register.yearOfBirth">Year of birth</div>
+                                                        <div class="item-input item-input-field">
+                                                           
+                                                            <select name="dob" id="yearbirth">
+                                                                <option value="">-</option>
+
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </form>
+                                        
+                                    </ul>
+                                </div>
+
+                                <a href="#" class="button button-big button-fill button-raised color-red trigger-search" style="margin-top: 20px;"><span data-i18n="search.name">Search</span></a>
+                                
+                                <a id="btn-register1" href="fragments/register.html" class="button button-big button-fill button-raised color-indigo" style="margin-top: 20px; margin-bottom: 20px;"><span data-i18n="search.newRegistration">NEW REGISTRATION</span></a>
+
+                            </div>
+                         </div>
+                      </li>
+                   </ul>
+                </div>
+                
+                
+                
+                <div class="patienstList-container">
+                </div>
+                
+            </div>
+            <div id="tab2" class="page-content tab">
+                
+                <div class="list-block search-patient" style="margin-top: 60px;">
+                   <ul>
+                      <li class="accordion-item accordion-item-expanded">
+                         <a class="item-content item-link" href="#">
+                            <div class="item-inner">
+                               <div class="item-title" data-i18n="search.name">Search</div>
+                            </div>
+                         </a>
+                         <div class="accordion-item-content">
+                            <div class="content-block">
+
+                                <a href="#" class="button button-big button-fill button-raised color-red trigger-scan" style="margin-top: 20px;margin-bottom: 10px;"><span data-i18n="search.searchByQR">Search by QR Code</span></a>
+                                
+                                <a id="btn-register2" href="fragments/register.html" class="button button-big button-fill button-raised color-indigo" style="margin-top: 20px; margin-bottom: 20px;"><span data-i18n="search.newRegistration">NEW REGISTRATION</span></a>
+                            </div>
+                         </div>
+                      </li>
+                   </ul>
+                </div>
+                <div class="patienstList-container">
+                </div>
+                
+            </div>
+            <div id="tab3" class="page-content tab">
+                <div class="list-block search-patient" style="margin-top: 60px;">
+                   <ul>
+                      <li class="accordion-item accordion-item-expanded">
+                         <a class="item-content item-link" href="#">
+                            <div class="item-inner">
+                               <div class="item-title" data-i18n="search.name">Search</div>
+                            </div>
+                         </a>
+                         <div class="accordion-item-content">
+                            <div class="content-block">
+                                <div class="list-block inputs-list">
+                                    <ul>
+                                        <form id="frmUicSearch" name="frmUicSearch" >
+                                            <li>
+                                                <div class="item-content">
+<!--                                                    <div class="item-media"><i class="fa fa-child fa-2x" aria-hidden="true"></i></div>-->
+                                                    <div class="item-inner">
+                                                        <div class="item-title label" data-i18n="search.uicNo">UIC</div>
+                                                        <div class="item-input item-input-field">
+                                                            <input type="text" name="uic">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </form>
+                                        
+                                    </ul>
+                                </div>
+
+                                <a href="#" class="button button-big button-fill button-raised color-red trigger-uic-search" style="margin-top: 20px;"><span data-i18n="search.name">Search</span></a>
+                                
+                                <a id="btn-register" href="fragments/register.html" class="button button-big button-fill button-raised color-indigo" style="margin-top: 20px; margin-bottom: 20px;"><span data-i18n="search.newRegistration">NEW REGISTRATION</span></a>
+
+                            </div>
+                         </div>
+                      </li>
+                   </ul>
+                </div>
+                
+                
+                <div class="patienstList-container">
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</div>

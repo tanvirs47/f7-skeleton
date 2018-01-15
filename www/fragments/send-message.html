@@ -1,0 +1,53 @@
+<div class="page" data-page="send-messages">
+    
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="fragments/messages.html" class="link icon-only"><i class="icon icon-back"></i></a>
+            </div>
+            <div class="center"><span data-i18n="send-message.name">Send Message</span></div>
+            <div class="right">                
+                
+            </div>
+        </div>    
+    </div>
+    
+    <div class="page-content">
+        <div class="list-block">
+            <ul>
+                <form id="frmSendMessage" name="frmSendMessage" class="store-data">
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">Select User</div>
+                                <div class="item-input">
+                                    <select name="to">
+                                        <option value="">-</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label"><span data-i18n="messages.name">Messages</span></div>
+                                <div class="item-input">
+                                    <textarea name="message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </form>
+                            
+            </ul>
+            
+        </div> 
+        <div class="content-block">
+            <a href="#" class="button button-big button-fill button-raised trigger-send" style="margin-top: 20px;"><span data-i18n="send-message.send">Send</span></a>
+        </div>
+    </div>
+    
+</div>

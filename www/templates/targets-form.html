@@ -1,0 +1,41 @@
+<div class="col-50"><h2 style="margin:0px;"><span data-i18n="targets.reached">Reached</span></h2></div>
+<div class="col-50"><h2 style="margin:0px;"><span data-i18n="targets.referred">Referred</span></h2></div>
+{{#if reached}}
+<ul class="col-50" style="padding:0px;">
+    {{#each reached}}
+    <li style="list-style-type:none;">
+        <div class="item-content">
+            <div class="item-inner"> 
+                <div class="item-title label"><span data-i18n="targets.{{@key}}"></span></div>
+                <div class="item-input item-input-field">
+                    <input type="number" name="{{@key}}" value="{{this}}" placeholder="0" style="font-size:16px;"/>
+                </div>
+            </div>
+        </div>
+    </li>
+    {{/each}}
+</ul>
+{{/if}}
+
+{{#if refer}}
+<ul class="col-50" style="padding:0px;">
+    {{#each refer}}
+        <li style="list-style-type:none;">
+            <div class="item-content">
+                <div class="item-inner"> 
+                    <div class="item-title label"><span data-i18n="targets.{{@key}}"></span></div>
+                    <div class="item-input item-input-field">
+                        <input type="number" name="{{@key}}" value="{{this}}" placeholder="0" style="font-size:16px;"/>
+                    </div>
+                </div>
+            </div>
+        </li>
+    <li>
+    {{/each}}
+
+</ul>
+{{/if}}
+
+
+
+<a href="#" class="button button-big button-fill button-raised color-red col-100 trigger-weekdata-submit" style="margin-bottom: 40px;"><span data-i18n="register.submit">Submit</span></a>

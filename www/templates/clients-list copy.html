@@ -1,0 +1,129 @@
+{{#each data}}
+    <li class="accordion-item">
+        <a href="#" class="item-link item-content">
+            <div class="item-media">
+                {{#if targetGroup}}
+                    {{#js_compare "this.targetGroup === 'PWID'"}}
+                        <span class="item-media-img  bg-blue">{{targetGroup}}</span>
+                    {{/js_compare}}
+                    {{#js_compare "this.targetGroup === 'SW'"}}
+                        <span class="item-media-img  bg-green">{{targetGroup}}</span>
+                    {{/js_compare}}
+
+                    {{#js_compare "this.targetGroup === 'MSM TG'"}}
+                        <span class="item-media-img  bg-red" >{{targetGroup}}</span>
+                    {{/js_compare}}
+
+                    {{#js_compare "this.targetGroup === 'MSW'"}}
+                        <span  class="item-media-img  bg-orange" >{{targetGroup}}</span>
+                    {{/js_compare}}
+                {{else}}
+                    <span  class="item-media-img  bg-gray" ><i class="fa fa-user" aria-hidden="true"></i></span>
+                {{/if}}
+            </div>
+            <div class="item-inner">
+                <div class="item-title-row">
+                    {{#if targetGroup}}
+                        {{#js_compare "this.targetGroup === 'PWID'"}}
+                            <div class="item-title">{{uicpwid}}</div> 
+                        {{/js_compare}}
+                        {{#js_compare "this.targetGroup === 'SW' || this.targetGroup === 'MSM TG' || this.targetGroup === 'MSW' "}}
+                            <div class="item-title">{{uic}}</div>
+                        {{/js_compare}}
+                    {{else}}
+                        <div class="item-title">{{uic}}</div>
+                    {{/if}}
+                    <div class="item-after"></div>
+                </div>
+                <div class="item-subtitle">{{gender}}, {{DateToAge dob}}</div>
+
+                <div class="item-text">
+
+                </div>
+            </div>
+        </a>
+        <div class="accordion-item-content">
+            <div class="content-block">
+                <div class="row no-gutter">
+                    <div class="col-70">
+                        <div class="row">
+                            <div class="col-60 font-bold"><span data-i18n="myclients.regdate">Registration Date</span> :</div>
+                            <div class="col-40">{{convertToThaiDate registrationDate}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-60 font-bold"><span data-i18n="myclients.firstname">First Name</span> :</div>
+                            <div class="col-40">{{firstName}}</div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.lastname">Last Name </span> :</div>
+                            <div class="col-40">{{lastName}}</div>
+                        </div>
+                        {{#if nickname}}
+                        <div class="row nickname">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.nickname">Nickname</span> :</div>
+                            <div class="col-40">{{nickname}}</div>
+                        </div>
+                        {{/if}}
+                        {{#js_compare "this.targetGroup === 'SW' || this.targetGroup === 'MSM TG' || this.targetGroup === 'MSW' "}}
+                        <div class="row">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.uic">UIC</span> :</div>
+                            <div class="col-40">{{uic}}</div>
+                        </div>
+                        {{/js_compare}}
+                        {{#js_compare "this.targetGroup === 'PWID'"}}
+                        <div class="row">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.uic">UIC</span>  :</div>
+                            <div class="col-40">{{uicpwid}}</div>
+                        </div>
+                        {{/js_compare}}
+
+                        <!--<div class="row">
+                            <div class="col-10"></div>
+                            <div class="col-45 font-bold"><span data-i18n="myclients.dob">Birth Date</span> :</div>
+                            <div class="col-45">{{convertToThaiDate dob}}</div>
+                        </div>-->
+                        <div class="row">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.gender">Gender</span> :</div>
+                            <div class="col-40">{{gender}}</div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.access">Access</span> :</div>
+                            <div class="col-40">{{access}}</div>
+                        </div>
+                        <!--<div class="row">
+                            <div class="col-10"></div>
+                            <div class="col-45 font-bold"><span data-i18n="myclients.occupation">Occupation</span> :</div>
+                            <div class="col-45">{{occupation}}</div>
+                        </div> -->
+                        <div class="row">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.nationality">Nationality</span>  :</div>
+                            <div class="col-40">{{nationality}}</div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-60 font-bold"><span data-i18n="myclients.citizenid">Citizen ID</span>  :</div>
+                            <div class="col-40">{{citizenid}}</div>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={{uic}}" style="width:90px;border-radius:0%;padding-top:30px;"/>
+                    </div>
+                </div>
+                <div class="buttons-row mart10">
+                    <button type="button" class="button button-raised button-fill trigger-case-history create-popup" data-sysuic="{{sysUIC}}" data-index="{{@index}}" data-i18n="profile.casehistory">Last Case History</button>
+                    <button type="button" class="button button-raised button-fill trigger-show-details"  data-sysuic="{{sysUIC}}" data-uic="{{uic}}" data-nickname="{{nickname}}" data-uicpwid="{{uicpwid}}" data-i18n="profile.services">Services</button>
+                </div>
+
+
+            </div>
+        </div>
+    </li>
+{{/each}}  
+    

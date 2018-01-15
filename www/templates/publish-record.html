@@ -1,0 +1,189 @@
+<div class="popup popup-publish">
+	<div class="navbar">
+	    <div class="navbar-inner">
+	        <div class="left">
+	            <a href="#" class="link icon-only trigger-profile-back close-popup"><i class="icon icon-back"></i></a>
+	        </div>
+	        <div class="center"><span data-i18n="profile.confirmation">Confirmation To Publish</span></div>
+	        <div class="right"></div>
+	    </div>
+	</div>
+	<div class="content-block">
+        <div class="content-block">
+		<h3 data-i18n="profile.filledinfo">Filled Information</h3>
+		
+
+		{{#if registerForm}}
+			{{#each registerForm}}
+				<div class="row">
+				    <div class="col-50">{{@key}}</div>
+				    <div class="col-50">{{this}}</div>
+				</div>
+			{{/each}}
+		{{/if}}
+
+		{{#if QAM}}
+			{{#each QAM}}
+				<div class="row">
+				    <div class="col-50">{{@key}}</div>
+				    <div class="col-50">{{this}}</div>
+				</div>
+			{{/each}}
+		{{/if}}
+		
+        </div>
+		<div class="list-block accordion-list">
+		  <ul>
+		    <li class="accordion-item"><a href="#" class="item-content item-link" target="_self">
+		        <div class="item-inner">
+		          <div class="item-title">
+		          	<div class="item-title" data-i18n="profile.recKnowledge">Information and Knowledge</div>
+		          </div>
+		        </div></a>
+		      <div class="accordion-item-content">
+		        <div class="content-block">
+		          {{#if RKS}}
+		          <div class="col-100">
+		        	<h3>
+		        	<span data-i18n="profile.recServices">Received Services in the past ?</span></h3>
+	        	  </div>
+	        	  <div class="row">
+	        	      <div class="col-50"></div>
+	        	      <div class="col-50"></div>
+	        	  </div>
+		          	{{#each RKS}}
+		          		<div class="row">
+		          		    <div class="col-50">{{@key}}</div>
+		          		    <div class="col-50">{{this}}</div>
+		          		</div>
+		          	{{/each}}
+		          {{/if}}
+
+		          {{#if SR}}
+		          <div class="col-100">
+		        	<h3>
+		        	<span data-i18n="profile.serRecieved">Information of Service</span></h3>
+	        	  </div>
+	        	  <div class="row">
+	        	      <div class="col-50"></div>
+	        	      <div class="col-50"></div>
+	        	  </div>
+		          	{{#each SR}}
+		          		<div class="row">
+		          		    <div class="col-50">{{@key}}</div>
+		          		    <div class="col-50">{{this}}</div>
+		          		</div>
+		          	{{/each}}
+		          {{/if}}
+		        </div>
+		      </div>
+		    </li>
+		    <li class="accordion-item">
+		    	<a href="#" class="item-content item-link" target="_self">
+		        <div class="item-inner">
+		          <div class="item-title" data-i18n="profile.proEquipment">Commodities</div>
+		        </div></a>
+		      <div class="accordion-item-content">
+		        <div class="content-block">
+		        	{{#if PE}}
+		        	  <div class="row">
+		        	      <div class="col-50"></div>
+		        	      <div class="col-50"></div>
+		        	  </div>
+		        		{{#each PE}}
+		        			<div class="row">
+		        			    <div class="col-50">{{@key}}</div>
+		        			    <div class="col-50">{{this}}</div>
+		        			</div>
+		        		{{/each}}
+		        	{{/if}}  
+		        </div>
+		      </div>
+		    </li>
+
+		    <li class="accordion-item"><a href="#" class="item-content item-link" target="_self">
+		        <div class="item-inner">
+		          <div class="item-title" data-i18n="profile.refServices">Referral Services</div>
+		        </div></a>
+		      <div class="accordion-item-content">
+		        <div class="content-block">
+		          {{#if RS}}
+		        	  <div class="row">
+		        	      <div class="col-50"></div>
+		        	      <div class="col-50"></div>
+		        	  </div>
+		          	{{#each RS}}
+		          		<div class="row">
+		          		    <div class="col-50">{{@key}}</div>
+		          		    <div class="col-50">{{this}}</div>
+		          		</div>
+		          	{{/each}}
+		          {{/if}}  
+
+		          {{#if HIVRS}}
+	        	<div class="col-100">
+		        	<h3>
+		        	<span data-i18n="profile.hivServices">HIV Referral Services</span></h3>
+	        	</div>
+		        	  <div class="row">
+		        	      <div class="col-50"></div>
+		        	      <div class="col-50"></div>
+		        	  </div>
+		          	{{#each HIVRS}}
+		          		<div class="row">
+		          		    <div class="col-50">{{@key}}</div>
+		          		    <div class="col-50">{{this}}</div>
+		          		</div>
+		          	{{/each}}
+		          {{/if}}  
+
+
+		          {{#if SDTSTI}}
+		        	<div class="col-100">
+			        	<h3>
+			        	<span data-i18n="profile.stiServices">STI Referral Service</span></h3>
+		        	</div>
+		        	  <div class="row">
+		        	      <div class="col-50"></div>
+		        	      <div class="col-50"></div>
+		        	  </div>
+		          	{{#each SDTSTI}}
+		          		<div class="row">
+		          		    <div class="col-50">{{@key}}</div>
+		          		    <div class="col-50">{{this}}</div>
+		          		</div>
+		          	{{/each}}
+		          {{/if}}  
+
+		          {{#if MMTS}}
+
+	        	<div class="col-100">
+		        	<h3>
+		        	<span data-i18n="profile.mmtServices">MMT Referral Service</span></h3>
+	        	</div>
+	        	<div class="row">
+	        	    <div class="col-50"></div>
+	        	    <div class="col-50"></div>
+	        	</div>
+
+		          	{{#each MMTS}}
+		          		<div class="row">
+		          		    <div class="col-50">{{@key}}</div>
+		          		    <div class="col-50">{{this}}</div>
+		          		</div>
+		          	{{/each}}
+		          {{/if}}  
+		        </div>
+		      </div>
+		    </li>
+		  </ul>
+		</div>
+
+	    
+        <div class="content-block">
+            <div class="buttons-row mart10">
+            	<button type="button" class="button button-raised button-fill trigger-final-submit" data-i18n="menu.publish">Publish</button>
+            </div>
+        </div>
+	</div>
+</div>

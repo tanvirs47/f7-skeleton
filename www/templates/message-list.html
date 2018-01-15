@@ -1,0 +1,12 @@
+{{#each data}}
+<div class="messages messages-auto-layout">
+    <div class="message message-received message-with-avatar">
+        <div class="message-name">{{from_user_Fname}} {{from_user_Sname}}</div>
+        <div class="message-text">{{notification}}
+            <div class="message-date">{{fromNow date}}</div>
+        </div>
+        <!--                <div style="background-image:url(http://lorempixel.com/200/200/people/9)" class="message-avatar"></div>-->
+    </div>
+
+</div>
+{{/each}}

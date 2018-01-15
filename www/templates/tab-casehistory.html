@@ -1,0 +1,188 @@
+
+                {{#if REF_HIV}}
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{REF_HIV.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#REF_HIV.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/REF_HIV.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+                
+                {{#if REF_STI}}
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{REF_STI.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#REF_STI.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/REF_STI.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+                
+                {{#if REF_TB}}
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{REF_TB.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#REF_TB.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/REF_TB.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+
+                {{#if SR_HE}}
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{SR_HE.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#SR_HE.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/SR_HE.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+
+
+                {{#if SR_COMM}}
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{SR_COMM.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#SR_COMM.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/SR_COMM.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+                
+                {{#if SR_HTC}}
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{SR_HTC.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#SR_HTC.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/SR_HTC.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+                
+                {{#if SR_STI}}
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{SR_STI.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#SR_STI.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/SR_STI.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+                
+                {{#if SR_TB}}
+                
+                    <li class="accordion-item">
+                        <a href="#" class="item-content item-link bg-indigo" style="margin-top:10px;">
+                            <div class="item-inner">
+                                <div class="item-title" style="color:#fff;">{{SR_TB.name}}</div>
+                            </div>
+                        </a>
+                        <div class="accordion-item-content">
+                            <div class="content-block row">
+                                {{#SR_TB.data}}
+                                    <div class="col-100 badge" style="font-size:14px;text-align:center;margin-top:10px;">
+                                        {{date}}
+                                    </div>
+                                    {{#innerdata}}
+                                        <div class="col-70">{{label}}</div>
+                                        <div class="col-30">{{value}}</div>
+                                    {{/innerdata}}
+                                {{/SR_TB.data}}
+                            </div>
+                        </div>
+                    </li>
+                {{/if}}
+                
+    

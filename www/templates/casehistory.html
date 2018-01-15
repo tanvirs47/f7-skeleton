@@ -1,0 +1,153 @@
+<div class="popup">
+
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="link icon-only trigger-profile-back close-popup"><i class="icon icon-back"></i></a>
+            </div>
+            <div class="center"><span data-i18n="profile.casehistory">Case History </span></div>
+            <div class="right"></div>
+        </div>
+    </div>
+    <div class="content-block">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-content-inner" style="font-weight:bold;">
+                    <div class="item-title">{{patientInfo.uic}}</div>
+                    <div class="item-subtitle"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="list-block accordion-list">
+            <ul>
+                {{#if REF_HIV}}
+                <li class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title" >{{REF_HIV.name}}</div>
+                        </div>
+                    </a>
+                    <div class="accordion-item-content">
+                        <div class="content-block row">
+                            {{#REF_HIV.data}}
+                                <div class="col-70">{{label}}</div>
+                                <div class="col-30">{{value}}</div>
+                            {{/REF_HIV.data}}
+                        </div>
+                    </div>
+                </li>
+                {{/if}}
+                
+                {{#if REF_STI}}
+                <li class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title" >{{REF_STI.name}}</div>
+                        </div>
+                    </a>
+                    <div class="accordion-item-content">
+                        <div class="content-block row">
+                            {{#REF_STI.data}}
+                                <div class="col-70">{{label}}</div>
+                                <div class="col-30">{{value}}</div>
+                            {{/REF_STI.data}}
+                        </div>
+                    </div>
+                </li>
+                {{/if}}
+                
+                {{#if REF_TB}}
+                <li class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title" >{{REF_TB.name}}</div>
+                        </div>
+                    </a>
+                    <div class="accordion-item-content">
+                        <div class="content-block row">
+                            {{#REF_TB.data}}
+                                <div class="col-70">{{label}}</div>
+                                <div class="col-30">{{value}}</div>
+                            {{/REF_TB.data}}
+                        </div>
+                    </div>
+                </li>
+                {{/if}}
+                
+                {{#if SR_COMM}}
+                <li class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title" >{{SR_COMM.name}}</div>
+                        </div>
+                    </a>
+                    <div class="accordion-item-content">
+                        <div class="content-block row">
+                            {{#SR_COMM.data}}
+                                <div class="col-70">{{label}}</div>
+                                <div class="col-30">{{value}}</div>
+                            {{/SR_COMM.data}}
+                        </div>
+                    </div>
+                </li>
+                {{/if}}
+                
+                {{#if SR_HTC}}
+                <li class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title" >{{SR_HTC.name}}</div>
+                        </div>
+                    </a>
+                    <div class="accordion-item-content">
+                        <div class="content-block row">
+                            {{#SR_HTC.data}}
+                                <div class="col-70">{{label}}</div>
+                                <div class="col-30">{{value}}</div>
+                            {{/SR_HTC.data}}
+                        </div>
+                    </div>
+                </li>
+                {{/if}}
+                
+                {{#if SR_STI}}
+                <li class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title" >{{SR_STI.name}}</div>
+                        </div>
+                    </a>
+                    <div class="accordion-item-content">
+                        <div class="content-block row">
+                            {{#SR_STI.data}}
+                                <div class="col-70">{{label}}</div>
+                                <div class="col-30">{{value}}</div>
+                            {{/SR_STI.data}}
+                        </div>
+                    </div>
+                </li>
+                {{/if}}
+                {{#if SR_TB}}
+                <li class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title" >{{SR_TB.name}}</div>
+                        </div>
+                    </a>
+                    <div class="accordion-item-content">
+                        <div class="content-block row">
+                            {{#SR_TB.data}}
+                                <div class="col-70">{{label}}</div>
+                                <div class="col-30">{{value}}</div>
+                            {{/SR_TB.data}}
+                        </div>
+                    </div>
+                </li>
+                {{/if}}
+                
+            </ul>
+        </div>
+    </div>
+</div>
